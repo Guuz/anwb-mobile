@@ -50,7 +50,7 @@ app.configure('production', function() {
  */
 
 app.get('/', routes.index);
-app.get('/apps', routes.apps);
+app.get('/apps', apps.getAppsCount, routes.apps);
 app.get('/apps/:platform', apps.getApps, routes.apps_platform);
 
 

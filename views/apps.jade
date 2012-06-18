@@ -6,5 +6,7 @@ block content
 		p De ANWB heeft verschillende apps voor verschillende platformen. <br />
 			| Kies je platform:
 		ul(data-role="listview", data-inset="true", data-theme="c")
-			li: a(href="/apps/android") Android <span class="ui-li-count">4</span>
-			li: a(href="/apps/ios") iOS <span class="ui-li-count">1</span>
+			li: a(href="/apps/android") Android
+				span.ui-li-count= appsCount.android
+			li: a(href="/apps/ios") iOS
+				span.ui-li-count= appsCount.ios

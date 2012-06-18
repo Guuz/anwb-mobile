@@ -6,13 +6,17 @@ exports.index = function( req, res ) {
 	res.render( 'index' );
 };
 
+
+
 /*
  * GET main apps page.
  */
 
 exports.apps = function( req, res ) {
-	res.render( 'apps' );
+	res.render( 'apps', req.locals );
 };
+
+
 
 /*
  * GET apps platform page.
