@@ -4,6 +4,7 @@
 
 var   express = require('express')
 	, routes = require('./routes')
+	, apps = require('./model/apps')
 
 var app = module.exports = express.createServer();
 
@@ -49,6 +50,8 @@ app.configure('production', function() {
  */
 
 app.get('/', routes.index);
+app.get('/apps/:platform', apps.getApps, routes.apps);
+
 
 app.get('*', function(req, res){
 	res.send('not found...', 404);
