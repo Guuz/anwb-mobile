@@ -3,7 +3,9 @@
  */
 
 exports.index = function( req, res ) {
-	res.render( 'index' );
+	req.locals = req.locals || {};
+	req.locals.title = 'ANWB Mobiel';
+	res.render( 'index', req.locals );
 };
 
 
@@ -13,6 +15,7 @@ exports.index = function( req, res ) {
  */
 
 exports.apps = function( req, res ) {
+	req.locals.title = 'Apps';
 	res.render( 'apps', req.locals );
 };
 
@@ -23,5 +26,6 @@ exports.apps = function( req, res ) {
  */
 
 exports.apps_platform = function( req, res ) {
+	req.locals.title = req.locals.apps.platform + ' apps';
 	res.render( 'apps_platform', req.locals );
 };
