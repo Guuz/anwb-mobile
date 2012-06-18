@@ -7,9 +7,17 @@ exports.index = function( req, res ) {
 };
 
 /*
- * GET apps page.
+ * GET main apps page.
  */
 
 exports.apps = function( req, res ) {
-	res.render( 'apps', req.locals );
+	res.render( 'apps' );
+};
+
+/*
+ * GET apps platform page.
+ */
+
+exports.apps_platform = function( req, res ) {
+	res.render( 'apps_platform', req.locals );
 };
