@@ -50,6 +50,17 @@ exports.vereniging = function( req, res ) {
 
 
 /*
+ * GET verkeer page.
+ */
+
+exports.verkeer = function( req, res ) {
+	req.locals.title = 'Verkeersinformatie';
+	res.render( 'verkeer', req.locals );
+};
+
+
+
+/*
  * GET main apps page.
  */
 

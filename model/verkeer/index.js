@@ -7,6 +7,25 @@ var   http = require('http')
  * Manages the verkeers feed from www.anwb.nl.
  */
 
+exports.getFeed = function( req, res, next ) {
+	req.locals = req.locals || {};
+	req.locals.verkeer = {}
+
+	fs.readFile('./model/verkeer/verkeer.json','utf8', function( err, data ) {
+		if( err ) {
+			next( new Error('Failed to get vekeer feed.' + err) );
+		} else {
+			req.locals.verkeer.feed = JSON.parse( data );
+			next();
+		}
+	});
+}
+
+
+/*
+ * Download the feed from www.anwb.nl.
+ */
+
 exports.downloadVerkeerFeed = function( callback ) {
 	var options = {
 		host: 'www.anwb.nl',

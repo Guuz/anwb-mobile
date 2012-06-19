@@ -1,0 +1,14 @@
+extends layout
+
+block content
+	div(data-role="content")
+		h2= title
+		- var timestamp =  new Date().toTimeString()
+		- timestamp = timestamp.split(':', 2)
+		p Laatste update:
+			strong= ' ' + timestamp[0] + ':' + timestamp[1]
+		ul(data-role="listview", data-inset="true")
+			li Aantal km file
+				span.ui-li-count= verkeer.feed.filelengte
+			li Aantal meldingen
+				span.ui-li-count= verkeer.feed.aantalmeldingen
