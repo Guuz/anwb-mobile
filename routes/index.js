@@ -34,6 +34,18 @@ exports.privacy = function( req, res ) {
 
 
 /*
+ * GET vereniging page.
+ */
+
+exports.vereniging = function( req, res ) {
+	req.locals = req.locals || {};
+	req.locals.title = 'Vereniging en bedrijf';
+	res.render( 'vereniging', req.locals );
+};
+
+
+
+/*
  * GET main apps page.
  */
 
