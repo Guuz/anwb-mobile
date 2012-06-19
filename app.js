@@ -4,8 +4,10 @@
 
 var   express = require('express')
 	, routes = require('./routes')
+	, util = require('util')
 	, apps = require('./model/apps')
 	, vestigingen = require('./model/vestigingen')
+	, verkeer = require('./model/verkeer')
 
 var app = module.exports = express.createServer();
 
@@ -61,6 +63,28 @@ app.get('/apps/:platform', apps.getApps, routes.apps_platform);
 app.get('*', function(req, res){
 	res.send('not found...', 404);
 });
+
+
+
+/**
+ * Download the verkeer feed from www.anwb.nl.
+ */
+
+verkeer.downloadVerkeerFeed( function( err, result ) {
+	verkeerFeedLoop(err, result);
+});
+
+function verkeerFeedLoop( err, result ) {
+	if( err ) {
+		console.warn( err );
+	} else if ( result ) {
+		util.log( result );
+	}
+
+	setTimeout(function() {
+		verkeer.downloadVerkeerFeed( verkeerFeedLoop );
+	}, 1000*60);
+}
 
 
 
