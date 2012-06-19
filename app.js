@@ -1,10 +1,11 @@
-  /**
+/**
  * Module dependencies.
  */
 
 var   express = require('express')
 	, routes = require('./routes')
 	, apps = require('./model/apps')
+	, vestigingen = require('./model/vestigingen')
 
 var app = module.exports = express.createServer();
 
@@ -51,6 +52,7 @@ app.configure('production', function() {
 
 app.get('/', routes.index);
 app.get('/apps', apps.getAppsCount, routes.apps);
+app.get('/contact', vestigingen.getVestigingen, routes.contact);
 app.get('/apps/:platform', apps.getApps, routes.apps_platform);
 
 

@@ -1,0 +1,550 @@
+{
+"vestigingen": [
+	{
+		"name": "Alkmaar",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Noorderkade 134<BR>1823 CJ Alkmaar<BR>telefoon: (088) 269 30 00<BR>fax: (088) 269 30 09",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 12.00 tot 18.00 uur<BR>Dinsdag tot en met vrijdag: 9.30 tot 18.00 uur<BR>Koopavond: donderdag tot 21.00 uur<BR>Zaterdag: 9.30 tot 17.00 uur<BR>Koopzondag: elke eerste zondag van de maand van 12.00 tot 17.00 uur"
+	},
+	{
+		"name": "Almelo",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Rosa Luxemburgstraat 8<BR>7607 SM Almelo<BR>telefoon: (088) 269 30 10<BR>fax: (088) 269 30 19",
+		"url": "<B>Openingstijden:</B><br>Maandag: 13.00 tot 18.00 uur<BR>Dinsdag tot en met vrijdag: 9.30 tot 18.00 uur<BR>Koopavond: donderdag tot 21.00 uur<BR>Zaterdag: 9.30 tot 17.00 uur<br>Extra koopzondag: 3 juni van 12.00 tot 17.00 uur"
+	},
+	{
+		"name": "Almere",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Spoordreef 20<BR>1315 GP Almere<BR>telefoon: (088) 269 30 20<BR>fax: (088) 269 30 29",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 11.00 tot 18.00 uur<BR>Dinsdag tot en met vrijdag: 9.30 tot 18.00 uur<BR>Koopavond: donderdag tot 21.00 uur<BR>Zaterdag: 9.30 tot 17.00 uur"
+	},
+	{
+		"name": "Amersfoort",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Langestraat 108-110<BR>3811 AK Amersfoort<BR>telefoon: (088) 269 30 30<BR>fax: (088) 269 30 39",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 13.00 tot 18.00 uur<BR>Dinsdag tot en met vrijdag: 9.30 tot 18.00 uur<BR>Koopavond: donderdag tot 21.00 uur<BR>Zaterdag: 9.30 tot 17.00 uur"
+	},
+	{
+		"name": "Amstelveen",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Thomas Cookstraat 1<BR>1181 ZS Amstelveen<BR>telefoon: (088) 269 30 40<BR>fax: (088) 269 30 49",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 12.00 tot 18.00 uur<BR>Dinsdag tot en met vrijdag: 9.30 tot 18.00 uur<BR>Koopavond: donderdag tot 21.00 uur<BR>Zaterdag: 9.30 tot 17.00 uur<BR>Koopzondag: elke eerste zondag van de maand van 12.00 tot 17.00 uur"
+	},
+	{
+		"name": "Amsterdam Buikslotermeerplein",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Buikslotermeerplein 307-311<BR>1025 XE Amsterdam<BR>telefoon: (088) 269 30 80<BR>fax: (088) 269 30 89",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 12.00 tot 17.30 uur<BR>Dinsdag tot en met vrijdag: 9.30 tot 17.30 uur<BR>Koopavond: donderdag tot 20.30 uur (apr t/m aug)<BR>Zaterdag: 9.30 tot 17.00 uur"
+	},
+	{
+		"name": "Amsterdam Osdorpplein",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Osdorpplein 885<BR>1068 TD Amsterdam<BR>telefoon: (088) 269 30 60<BR>fax: (088) 269 30 69",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 12.00 tot 18.00 uur<BR>Dinsdag tot en met vrijdag: 9.30 tot 18.00 uur<BR>Koopavond: donderdag tot 21.00 uur (mei t/m aug)<BR>Zaterdag: 9.30 tot 17.00 uur"
+	},
+	{
+		"name": "Amsterdam, Amsterdamse Poort",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Bijlmerplein 1001<BR>1102 MK Amsterdam<BR>telefoon: (088) 269 30 70<BR>fax: (088) 269 30 79",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 12.00 tot 18.00 uur<BR>Dinsdag tot en met vrijdag: 9.30 tot 18.00 uur<BR>Zaterdag: 9.30 tot 17.00 uur"
+	},
+	{
+		"name": "Apeldoorn",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Oranjerie 105<BR>7311 WD Apeldoorn<BR>telefoon: (088) 269 30 90<BR>fax: (088) 269 30 99",
+		"url": "<B>Openingstijden:</B><br>Maandag: 11.00 tot 17.30 uur<br>Dinsdag tot en met vrijdag: 9.30 tot 17.30 uur<br>Koopavond: donderdag tot 21.00 uur<br>Zaterdag: 9.30 tot 17.00 uur<br>Koopzondag: elke eerste zondag van de maand van 12.00 tot 17.00 uur"
+	},
+	{
+		"name": "Arnhem",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Kronenburgsingel 20<BR>6831 EX Arnhem<BR>telefoon: (088) 269 31 00<BR>fax: (088) 269 31 09",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 12.00 tot 18.00 uur <BR>Dinsdag tot en met vrijdag: 9.30 tot 18.00 uur<BR>Koopavond: donderdag tot 21.00 uur (mei t/m aug)<BR>Zaterdag: 9.30 tot 17.00 uur"
+	},
+	{
+		"name": "Assen",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Kloekhorststraat 12<BR>9401 BD Assen<BR>telefoon: (088)  269 31 10<BR>fax: (088) 269 31 19",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 11.00 tot 18.00 uur<BR>Dinsdag tot en met vrijdag: 9.30 tot 18.00 uur<BR>Koopavond: vrijdag tot 21.00 uur<br>Zaterdag: 9.30 tot 17.00 uur"
+	},
+	{
+		"name": "Baarn",
+		"address": "VVV/ANWB Winkel<BR><BR><B>Adres:</B><BR>Brinkstraat 12<BR>3741 AN Baarn<BR>telefoon: (035) 541 32 26<BR>fax: (035) 543 08 28",
+		"url": "<B>Openingstijden:</B><BR>Maandag: gesloten<BR>Dinsdag t/m vrijdag: 10.00 tot 17.00 uur<BR>Zaterdag: 10.00 tot 16.00 uur"
+	},
+	{
+		"name": "Bergen",
+		"address": "VVV/ANWB Winkel<BR><BR><B>Adres:</B><BR>Plein 1<BR>1861 JX Bergen<BR>telefoon: (072) 58 13 100<BR>fax: (072) 58 16 140",
+		"url": "<B>Openingstijden:</B><BR><I>1 apr tot 1 jul 2012</I><BR>Maandag tot en met vrijdag: 10.00 tot 12.30 uur en 13.00 tot 17.00 uur<BR>Zaterdag: 09.30 tot 16.00 uur<BR><BR><I>1 jul tot 1 sep 2012</I><BR>Maandag tot en met vrijdag: 10.00 tot 17.00 uur<BR>Zaterdag: 09.30 tot 16.00 uur<BR><BR><I>1 sep tot 1 nov 2012</I><BR>Maandag tot en met vrijdag: 10.00 tot 12.30 uur en 13.00 tot 17.00 uur<BR>Zaterdag: 09.30 tot 16.00 uur<BR><BR><I>1 nov 2012 - 1 jan 2013</I><BR>Maandag: 13.00 tot 17.00 uur<BR>Dinsdag tot en met vrijdag: 10.00 tot 12.30 uur en 13.00 tot 17.00 uur<BR>Zaterdag: 09.30 tot 16.00 uur"
+	},
+	{
+		"name": "Bergen op Zoom",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>A. Asselbergsstraat 13-15<BR>4611 CL Bergen op Zoom<BR>telefoon: (088) 269 31 20<BR>fax: (088) 269 31 29",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 12.00 tot 17.30 uur<BR>Dinsdag tot en met vrijdag: 9.30 tot 17.30 uur<BR>Koopavond: vrijdag tot 21.00 uur<BR>Zaterdag: 9.30 tot 17.00 uur"
+	},
+	{
+		"name": "Beverwijk",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Beverhof 16-17<BR>1941 EC Beverwijk<BR>telefoon: (088) 269 31 30<BR>fax: (088) 269 31 39",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 12.00 tot 18.00 uur<BR>Dinsdag tot en met vrijdag: 9.30 tot 18.00 uur<BR>Zaterdag: 9.30 tot 17.00 uur"
+	},
+	{
+		"name": "Breda",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Nieuwe Ginnekenstraat 27<BR>4811 NM Breda<BR>telefoon: (088) 269 31 40<BR>fax: (088) 269 31 49",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 12.00 tot 18.00 uur<BR>Dinsdag tot en met vrijdag: 9.30 tot 18.00 uur<BR>Koopavond: donderdag tot 21.00 uur<BR>Zaterdag: 9.30 tot 17.00 uur"
+	},
+	{
+		"name": "Castricum",
+		"address": "VVV/ANWB Winkel<BR><BR><B>Adres:</B><BR>Stationsweg 8<BR>1901 AA Castricum<BR>telefoon: (0251) 65 20 09<BR>fax: (0251) 67 23 63",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 13.00 tot 17.00 uur<BR>Dinsdag tot en met zaterdag: 9.30 tot 17.00 uur"
+	},
+	{
+		"name": "Delft",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Pynepoort 3<BR>2611 MD Delft<BR>telefoon: (088) 269 31 50<BR>fax: (088)  269 31 59",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 12.00 tot 18.00 uur<BR>Dinsdag tot en met vrijdag: 9.30 tot 18.00 uur<BR>Koopavond: vrijdag tot 21.00 uur<br>Zaterdag: 9.30 tot 17.00 uur<BR>Koopzondag: eerste zondag van de maand 12:00- 17:00 uur"
+	},
+	{
+		"name": "Den Bosch",
+		"address": "ANWB Winkel|<BR><BR><B>Adres:</B><BR>Burgemeester Loeffplein 11<BR>5211 RX Den Bosch<BR>telefoon: (088) 269 31 60<BR>fax: (088) 269 31 69",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 13.00 tot 18.00 uur<BR>Dinsdag tot en met vrijdag: 9.30 tot 18.00 uur<BR>Koopavond: donderdag tot 21.00 uur<BR>Zaterdag: 9.30 tot 17.00 uur<BR>Koopzondag: elke eerste zondag van de maand van 12.00 tot 17.00 uur"
+	},
+	{
+		"name": "Den Haag, hoofdkantoor",
+		"address": "ANWB Winkel<BR>Hoofdkantoor<BR><BR><B>Adres:</B><BR>Wassenaarseweg 220<BR>2596 EC Den Haag<BR>Postadres: Postbus 93200 - 2509 BA Den Haag<BR><BR>telefoon hoofdkantoor: (088) 269 71 47<BR>telefoon winkel: (088) 269 31 70<BR>fax winkel: (088) 269 31 79",
+		"url": "<B>Openingstijden:</B><BR>Maandag tot en met vrijdag: 9.00 tot 17.30 uur<BR>Koopavond: donderdag  tot 21.00 uur (apr t/m sep)<BR>Zaterdag: 9.00 tot 17.00 uur"
+	},
+	{
+		"name": "Den Haag, keuringsstation",
+		"address": "Keuringsstation<BR><BR><B>Adres:</B><BR>Laan van Haamstede 20<BR>2497 GE Den Haag<BR>telefoon: 088 269 28 25<BR>e-mail: <A HREF=\"mailto:autokeuringdenhaag@anwb.nl\">autokeuringdenhaag@anwb.nl</A>",
+		"url": "<B>Openingstijden:</B><BR>Maandag tot en met vrijdag: 8.00 tot 17.00 uur."
+	},
+	{
+		"name": "Den Haag, Savornin Lohmanplein",
+		"address": "ANWB Winkel<B><BR><BR>Adres:</B><BR>De Savornin Lohmanplein 10<BR>2566 AB Den Haag<BR>telefoon: (088) 269 31 80<BR>fax: (088) 269 31 89",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 11.00 tot 18.00 uur<br>Dinsdag tot en met vrijdag: 9.30 tot 18.00 uur<BR>Koopavond: donderdag tot 21.00 uur (apr t/m sep)<BR>Zaterdag: 9.30 tot 17.00 uur"
+	},
+	{
+		"name": "Den Haag, Wassenaarseweg",
+		"address": "ANWB Winkel<BR>Hoofdkantoor<BR><BR><B>Adres:</B><BR>Wassenaarseweg 220<BR>2596 EC Den Haag<BR>telefoon: (088) 269 31 70<BR>fax: (088) 269 31 79<BR><BR>Postbus 93200<BR>2509 BA Den Haag",
+		"url": "<B>Openingstijden:</B><BR>Maandag tot en met vrijdag: 9.00 tot 17.30 uur<BR>Koopavond: donderdag  tot 21.00 uur<BR>Zaterdag: 9.00 tot 17.00 uur"
+	},
+	{
+		"name": "Den Helder",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Spoorstraat 64<BR>1781 JH Den Helder<BR>telefoon: (088) 269 31 90<BR>fax: (088) 269 31 99",
+		"url": "<B>Openingstijden:</B><BR>Maandag 13.00 tot 18.00 uur<BR>Dinsdag tot en met vrijdag: 9.30 tot 18.00 uur<BR>Koopavond: donderdag tot 21.00 uur<BR>Zaterdag: 9.30 tot 17.00 uur<BR>Koopzondag: alle zondagen waarop het winkelcentrum/gebied ook open is van 12.00 tot 17.00 uur"
+	},
+	{
+		"name": "Deventer",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Broederenstraat 12<BR>7411 LA Deventer<BR>telefoon: (088) 269 32 00<BR>fax: (088) 269 32 09",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 13.00 tot 18.00 uur<BR>Dinsdag tot en met vrijdag: 9.30 tot 18.00 uur<BR>Koopavond: donderdag tot 21.00 uur<BR>Zaterdag: 9.30 tot 17.00 uur"
+	},
+	{
+		"name": "Doetinchem",
+		"address": "ANWB Winkel<B><BR><BR>Adres:</B><BR>IJsselkade 20<BR>7001 AP Doetinchem<BR>telefoon: (088) 269 32 10<BR>fax: (088) 269 32 19",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 11.00 tot 18.00 uur<BR>Dinsdag tot en met vrijdag: 9.30 tot 18.00 uur<BR>Koopavond: vrijdag tot 21.00 uur<BR>Zaterdag: 9.30 tot 17.00 uur<BR>Koopzondag: laatste zondag van de maand van 12.00 tot 17.00 uur"
+	},
+	{
+		"name": "Dordrecht",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Spuiboulevard 88<BR>3311 GR Dordrecht<BR>telefoon: (088)  269 32 20<BR>fax: (088) 269 32 29",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 11.00 tot 17.30 uur<BR>Dinsdag tot en met vrijdag: 9.30 tot 17.30 uur<BR>Koopavond: donderdag tot 21.00 uur (apr t/m sep)<BR>Zaterdag: 9.30 tot 17.00 uur<br>Koopzondag: elke laatste zondag van de maand van 12.00 tot 17.00 uur"
+	},
+	{
+		"name": "Drachten",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Museumplein 4<BR>9203 DD Drachten<BR>telefoon: (088) 269 32 30<BR>fax: (088) 269 32 39",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 11.00 tot 18.00 uur<BR>Dinsdag tot en met vrijdag: 9.30 tot 18.00 uur<BR>Koopavond: donderdag tot 21.00 uur<BR>Zaterdag: 9.30 tot 17.00 uur"
+	},
+	{
+		"name": "Ede",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Molenstraat 80<BR>6711 AW Ede<BR>telefoon: (088) 269 32 40<BR>fax: (088) 269 32 49",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 11.00 tot 17.30 uur<BR>Dinsdag tot en met vrijdag: 9.30 tot 17.30 uur<BR>Koopavond: vrijdag tot 21.00 uur<br>Zaterdag: 9.30 tot 17.00 uur"
+	},
+	{
+		"name": "Eindhoven",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Emmasingel 10<BR>5611 AZ Eindhoven<BR>telefoon: (088)  269 32 50<BR>fax: (088) 269 32 59",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 12.00 tot 18.00 uur<BR>Dinsdag tot en met vrijdag: 9.30 tot 18.00 uur<BR>Koopavond: vrijdag tot 21.00 uur (apr t/m sep)<br>Zaterdag: 9.30 tot 17.00 uur"
+	},
+	{
+		"name": "Emmeloord",
+		"address": "VVV/ANWB Winkel<BR><BR><B>Adres:</B><BR>De Deel 25a<BR>8302 EK Emmeloord<BR>telefoon: (0527) 61 20 00<BR>fax: (0527) 61 60 91",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 12.00 tot 17.00 uur<BR>Dinsdag tot en met vrijdag: 10.00 tot 17.00 uur<BR>Zaterdag: 10.00 tot 16.00 uur"
+	},
+	{
+		"name": "Emmen",
+		"address": "ANWB Winkel<BR><BR><b>Adres:</b>Dalipassage 24<BR>7811 DB Emmen<BR>telefoon: (088) 269 32 60<BR>fax: (088) 269 32 69",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 12.00 tot 18.00 uur<BR>Dinsdag tot en met vrijdag: 9.30 tot 18.00 uur<BR>Koopavond op donderdag tot 21:00 uur<BR>Zaterdag: 9.30 tot 17.00 uur"
+	},
+	{
+		"name": "Enschede",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Burg. Edo Bergsmalaan 1a<BR>7512 AD Enschede<BR>telefoon: (088) 269 32 70<BR>fax: (088) 269 32 79",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 11.00 tot 18.00 uur<BR>Dinsdag tot en met vrijdag: 9.30 tot 18.00 uur<BR>Koopavond: donderdag tot 21.00 uur<BR>Zaterdag: 9.30 tot 17.00 uur"
+	},
+	{
+		"name": "Goes",
+		"address": "VVV/ANWB Winkel<BR><BR><B>Adres:</B><BR>Singelstraat 13<BR>4461 HZ Goes<BR>telefoon: (0113) 23 59 90<BR>fax: (0113) 25 13 50",
+		"url": "<B>Openingstijden:</B><BR>Maandag: gesloten<BR>Dinsdag tot en met vrijdag: 9.30 tot 17.00 uur<BR>Zaterdag: 10.00 tot 16.00 uur"
+	},
+	{
+		"name": "Gouda",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Stationsplein 1B<BR>2801 AK Gouda<BR>telefoon: (088) 269 32 80<BR>fax: (088) 269 32 89",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 12.00 tot 18.00 uur<BR>Dinsdag tot en met vrijdag: 9.30 tot 18.00 uur<BR>Koopavond: donderdag tot 21.00 uur (apr t/m aug)<BR>Zaterdag: 9.30 tot 17.00 uur"
+	},
+	{
+		"name": "Groningen",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Oosterstraat 48<BR>9711 NW Groningen<BR>telefoon: (088) 269 32 90<BR>fax: (088) 269 32 99",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 11.00 tot 18.00 uur<BR>Dinsdag tot en met vrijdag: 9.30 tot 18.00 uur<BR>Koopavond: donderdag tot  21.00 uur.<BR>Zaterdag 9.30 - 17.00 uur"
+	},
+	{
+		"name": "Haarlem",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Gedempte oudegracht 39<BR>2011 GL Haarlem<BR>telefoon: (088) 269 33 00<BR>fax: (088) 269 33 09",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 12.00 tot 18.00 uur<BR>Dinsdag tot en met vrijdag: 9.30 tot 18.00 uur<BR>Koopavond: donderdag tot 21.00 uur (van apr t/m sep)<BR>Zaterdag: 9.30 tot 17.00 uur<br>Koopzondag: elke eerste zondag van de maand van 12.00 tot 17.00 uur"
+	},
+	{
+		"name": "Hardenberg",
+		"address": "VVV/ANWB Winkel <BR><BR><B>Adres:</B><BR>Gedempte Haven 6<BR>7772 VD Hardenberg<BR>telefoon: (0523) 26 20 00<BR>fax: (0523) 26 65 95",
+		"url": "<B>Openingstijden:</B><BR><b>1 april t/m 31 oktober 2011</b><BR>Maandag t/m vrijdag: 09.30 - 17.00 uur<BR>Zaterdag: 10.00 - 16.00 uur<BR><BR><b> 1 november 2011 t/m 31 maart 2012</b><BR>Maandag: 09.30 - 17.00 uur<BR>Dinsdag: gesloten<BR>Woensdag tot en met vrijdag: 9.30 tot 17.00 uur<BR>Zaterdag: 10.00 tot 16.00 uur"
+	},
+	{
+		"name": "Harderwijk",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Bleek 102<BR>3841 GC Harderwijk<BR>telefoon: (088) 269 33 10<BR>fax: (088) 269 33 19",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 12.00 tot 18.00 uur<BR>Dinsdag tot en met vrijdag: 9.30 tot 18.00 uur<BR>Koopavond: vrijdag tot 21.00 uur<br>Zaterdag: 9.30 tot 17.00 uur"
+	},
+	{
+		"name": "Heerenveen",
+		"address": "VVV/ANWB Winkel<BR><BR><B>Adres:</B><BR>(De Heerenveense school) Minckelersstraat 11<BR>8442 CE Heerenveen<BR>telefoon: (0513) 62 55 55<BR>fax: (0513) 65 06 09",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 13.00 tot 17.30 uur<BR>Dinsdag tot en met vrijdag: 09.30 tot 12.30 en 13.00 tot 17.30 uur<BR>Zaterdag: 10.00 tot 16.00 uur"
+	},
+	{
+		"name": "Heerlen",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Honigmanstraat 100<BR>6411 LM Heerlen<BR>telefoon: (088) 269 33 20<BR>fax: (088) 269 33 29",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 12.00 tot 18.00 uur<BR>Dinsdag tot en met vrijdag: 9.30 tot 18.00 uur<BR>Koopavond: donderdag tot 21.00 uur<BR>Zaterdag: 9.30 tot 17.00 uur"
+	},
+	{
+		"name": "Hellevoetsluis",
+		"address": "VVV/ANWB Winkel<BR><BR><B>Adres:</B><BR>Oostzanddijk 3<BR>3221 AL Hellevoetsluis<BR>telefoon: (0181) 31 23 18<BR>fax: (0181) 32 51 84",
+		"url": "<B>Openingstijden:</B><BR>Maandag: gesloten<BR>Dinsdag tot en met zaterdag: 10.00 tot 16.00 uur"
+	},
+	{
+		"name": "Helmond",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Markt 33<BR>5701 RJ Helmond<BR>telefoon: (088) 269 33 40<BR>fax: (088) 269 33 49",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 13.00 tot 18.00 uur<BR>Dinsdag tot en met vrijdag: 9.30 tot 18.00 uur<BR>Koopavond: vrijdag tot 21.00 uur<BR>Zaterdag: 9.30 tot 17.00 uur"
+	},
+	{
+		"name": "Hengelo",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Nieuwstraat 59<BR>7551 CV Hengelo<BR>telefoon: (088) 269 33 50<BR>fax: (088) 269 33 59",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 13.00 - 18.00 uur<BR>Dinsdag tot en met vrijdag: 9.30 - 18.00 uur<BR>Koopavond: donderdag tot 21.00 uur<BR>Zaterdag: 9.30 - 17.00 uur<br>Koopzondag: elke laatste zondag van de maand van 12.00 tot 17.00 uur (m.u.v. juli)"
+	},
+	{
+		"name": "Hilversum",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Noordse Bosje 1<BR>1211 BD Hilversum<BR>telefoon : (088) 269 33 60<BR>fax: (088) 269 33 69",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 12.00 tot 18:00 uur<BR>Dinsdag tot en met vrijdag: 9.30 tot 18.00 uur<BR>Koopavond: donderdag tot 21.00 uur<BR>Zaterdag: 09.30 tot 17.00 uur<br>Koopzondag: elke laatste zondag van de maand van 12.00 tot 17.00 uur"
+	},
+	{
+		"name": "Hoofddorp",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Polderplein 247-248<BR>2132 BG Hoofddorp<BR>telefoon: (088) 269 33 70<BR>fax: (088) 269 33 79",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 12.00 tot 18.00 uur<BR>Dinsdag tot en met vrijdag: 9.30 tot 18.00 uur<BR>Koopavond: vrijdag tot 21.00 uur<br>Zaterdag: 9.30 tot 17.00 uur<BR>Koopzondag: laatste zondag van de maand 12.00 tot 17.00 uur"
+	},
+	{
+		"name": "Hoogeveen",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Hoofdstraat 13<BR>7902 EA Hoogeveen<BR>telefoon: (088) 269 33 80<BR>fax: (088) 269 33 89",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 12.00 tot 18.00 uur<BR>Dinsdag tot en met vrijdag: 9.30 tot 18.00 uur<BR>Koopavond: vrijdag tot 21.00 uur<br>Zaterdag: 9.30 uur tot 17.00 uur"
+	},
+	{
+		"name": "Hoogvliet",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Binnenban 6<BR>3191 CH Hoogvliet<BR>telefoon: (088) 269 33 90<BR>fax: (088) 269 33 99",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 12.00 tot 17.30 uur<BR>Dinsdag tot en met vrijdag: 9.00 tot 17.30 uur<BR>Koopavond: vrijdag tot 21.00 uur<br>Zaterdag: 9.00 tot 17.00 uur<BR>Koopzondag: elke laatste zondag van de maand van 12.00 tot 17.00 uur"
+	},
+	{
+		"name": "Hoorn",
+		"address": "VVV/ANWB Winkel<BR><BR><B>Adres:</B><BR>Veemarkt 44<BR>1621 JC Hoorn<BR>telefoon: (0229) 21 83 43<BR>fax: (0229) 21 50 23",
+		"url": "<B>Openingstijden:</B><BR><I>1 mei t/m 31 augustus</I><br>Maandag: 13.00 tot 18.00 uur<BR>Dinsdag en woensdag: 9.30 tot 17.30 uur<BR>Donderdag: 9.30 tot 18.00 uur en 19.00 tot 21.00 uur<br>Vrijdag: 9.30 tot 17.30 uur<BR>Zaterdag: 9.30 tot 17.00 uur<br><br><br><I>1 sep t/m 30 april 2013</I><BR>Maandag: 13.00 tot 17.00 uur<BR>Dinsdag t/m zaterdag: 10.00 tot 17.00 uur"
+	},
+	{
+		"name": "IJmuiden",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Plein 1945 6<BR>1971 GA IJmuiden<BR>telefoon: (088) 269 34 00<BR>fax: (088) 269 34 09",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 12.00 tot 18:00 uur<BR>Dinsdag tot en met vrijdag: 9.00 tot 18.00 uur<BR>Zaterdag: 9.00 tot 17.00 uur"
+	},
+	{
+		"name": "Joure",
+		"address": "VVV/ANWB Winkel<BR><BR><B>Adres:</B><BR>Midstraat 99<BR>8501 AH Joure<BR>telefoon: (0513) 41 60 30<BR>fax: (0513) 41 52 82",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 13.30 tot 17.30 uur<BR>Dinsdag tot en met vrijdag: 9.30 tot 17.30 uur<BR>Koopavond: vrijdag van 19.00 tot 21.00 uur<BR>Zaterdag 10.00 tot 16.00 uur"
+	},
+	{
+		"name": "Kampen",
+		"address": "VVV/ANWB Winkel<BR><BR><B>Adres:</B><BR>Oudestraat 151<BR>8261 CL Kampen<BR>telefoon: (038) 331 35 00<BR>fax: (038) 332 89 00",
+		"url": "<B>Openingstijden:</B><BR>Maandag: gesloten<BR>Dinsdag tot en met vrijdag: 10.00 tot 17.00 uur<BR>Zaterdag: 09.30 tot 16.00 uur"
+	},
+	{
+		"name": "Katwijk",
+		"address": "VVV/ANWB Winkel<BR><BR><B>Adres:</B><BR>Voorstraat 41<BR>2225 EL Katwijk<BR>telefoon: (071) 407 54 44<BR>fax: (071) 407 63 42",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 13.30 tot 17.30 uur<BR>Dinsdag tot en met vrijdag: 10.00 tot 17.30 uur<BR>Zaterdag: 9.30 tot 17.00 uur"
+	},
+	{
+		"name": "Landgraaf",
+		"address": "VVV/ANWB Winkel<BR><BR><B>Adres:</B><BR>Hoogstraat 150<BR>6373 HZ Landgraaf<BR>telefoon: (045) 532 29 29<BR>fax: (045) 569 59 97",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 13.00 tot 17.00 uur<BR>Dinsdag tot en met vrijdag: 10.00 tot 17.00 uur<BR>Zaterdag: 10.00 tot 16.00 uur"
+	},
+	{
+		"name": "Lauwersland",
+		"address": "VVV/ANWB Winkel<BR><BR><B>Adres:</B><BR>Op de Fetze 13<BR>9101 LE Dokkum<BR>telefoon: (0519) 29 38 00<BR>fax: (0519) 29 80 15",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 11.00 tot 17.30 uur<BR>Dinsdag tot en met vrijdag: 9.00 tot 17.30 uur<BR>Koopavond: vrijdag 19.00 tot 21.00 uur<BR>Zaterdag: 9.00 tot 17.00 uur"
+	},
+	{
+		"name": "Leeuwarden",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Zaailand 112<BR>8911 BN Leeuwarden<BR>telefoon: (088)  269 34 10<BR>fax: (088) 269 34 19",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 12.00 tot 18.00 uur<BR>Dinsdag tot en met vrijdag: 9.30 tot 18.00 uur<BR>Koopavond: donderdag tot 21.00 uur<BR>Zaterdag: 9.30 tot 17.00 uur<BR>Koopzondag: elke laatste zondag van de maand van 12.00 tot 17.00 uur"
+	},
+	{
+		"name": "Leiden",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Stationsweg 2<BR>2312 AV Leiden<BR>telefoon: (088) 269 34 20<BR>fax: (088) 269 34 29<br><br>De dichtstbijzijnde parkeergelegenheid is het 'Morssingel-terrein op 3 minuten lopen, of het LUMC op 8 minuten lopen. Centraal Station Leiden is op 5 minuten afstand.",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 12.00 tot 18.00 uur<BR>Dinsdag tot en met vrijdag: 9.30 tot 18.00 uur<BR>Koopavond: donderdag tot 21.00 uur<BR>Zaterdag: 9.30 tot 17.00 uur"
+	},
+	{
+		"name": "Leidschendam",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>(winkelcentrum Leidschenhage)<BR>Kamperfoelie  5-7<BR>2262 AE Leidschendam<BR>telefoon: (088) 269 34 30<BR>fax: (088) 269 34 39",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 12.00 tot 17.30 uur<BR>Dinsdag tot en met vrijdag: 9.30 tot 17.30 uur<BR>Koopavond: donderdag tot 21.00 uur<BR>Zaterdag: 9.30 - 17.00 uur<BR>Koopzondag: elke laatste zondag van de maand van 12.00 tot 17.00 uur",
+		"infowindow": "<B>Webwinkel</B><BR>Gemakkelijk en vertrouwd winkelen kan ook vanaf huis in de ANWB Webwinkel.<BR><A HREF=\"http://www.anwb.nl/webwinkel\" target=\"_blank\" ><font color=\"#002280\">> Neem hier een kijkje</A></font>"
+	},
+	{
+		"name": "Lelystad",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Stationsweg 10<BR>8232 DN Lelystad<BR>telefoon: (088) 269 34 40<BR>fax: (088) 269 34 49",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 12.00 tot 18.00 uur<BR>Dinsdag tot en met vrijdag: 09.30 tot 18.00 uur<BR>Koopavond: donderdag tot 21.00 uur<BR>Zaterdag: 09.30 tot 17.00 uur"
+	},
+	{
+		"name": "Lelystad, Test - en Trainingscentrum",
+		"address": "Test- en Trainingscentrum<BR><BR><B>Adres:</B><BR>Talingweg 120<BR>8218 NX Lelystad<BR>telefoon: (088) 269 64 68",
+		"url": "Dit ultramoderne slipbanencomplex is in Nederland het grootste centrum voor voertuig-beheersing en verkeersveiligheid.<BR><A HREF=\"http://www.anwb.nl/auto/rijden/rijvaardigheidstrainingen,/test--en-trainingscentrum-lelystad/test-en-trainingscentrum.html\" target=\"_blank\">> Meer informatie</A>"
+	},
+	{
+		"name": "Lisse",
+		"address": "VVV/ANWB Winkel <BR><BR><B>Adres:</B><BR>Grachtweg 53<BR>2161 HM Lisse<BR>telefoon: (0252) 41 42 62<BR>fax: (0252) 41 86 39",
+		"url": "<B>Openingstijden</B><BR>Maandag: 12.00 tot 17.30 uur<BR>Dinsdag tot en met zaterdag: 9.30 tot 17.30 uur<BR>Koopavond: donderdag van 19.00  tot 21.00 uur"
+	},
+	{
+		"name": "Lochem",
+		"address": "VVV/ANWB Winkel<BR><BR><B>Adres:</B><BR>Tramstraat 4<BR>7241 CJ Lochem<BR>telefoon: (0573) 25 18 98<BR>fax: (0573) 25 68 85",
+		"url": "<B>Openingstijden:</B><BR>Maandag tot en met vrijdag: 9.00 tot 17.30 uur<BR>Zaterdag: 10.00 tot 16.00 uur"
+	},
+	{
+		"name": "Maastricht",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Wycker Brugstraat 24<BR>6221 ED Maastricht<BR>telefoon: (088) 269 34 50<BR>fax: (088) 269 34 59",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 13.00 tot 18.00 uur<BR>Dinsdag tot en met vrijdag: 9.30 tot 18.00 uur<BR>Koopavond: donderdag tot 21.00 uur<BR>Zaterdag: 9.30 tot 17.00 uur<BR>Koopzondag: elke eerste zondag van de maand van 12.00 tot 17.00 uur"
+	},
+	{
+		"name": "Meppel",
+		"address": "VVV/ANWB Winkel<BR><BR><B>Adres:</B><BR>Hoofdstraat 115<BR>7941 AE Meppel<BR>telefoon: (0522) 25 28 88<BR>fax: (0522) 25 96 88",
+		"url": "<B>Openingstijden:</B><BR>Maandag van 13.00 uur tot 17.00 uur<BR>Dinsdag tot en met vrijdag 9.00 tot 17.00 uur<BR>Zaterdag: van 10.00 tot 16.00 uur"
+	},
+	{
+		"name": "Middelburg",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Nieuwe Burg 40<BR>4331 AH Middelburg<BR>telefoon: (088) 269 34 60<BR>fax: (088) 269 34 69",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 12.00 tot 17.30 uur<BR>Dinsdag tot en met vrijdag: 9.30 tot 17.30 uur<BR>Koopavond: donderdag tot 21.00 uur<BR>Zaterdag: 9.30 tot 17.00 uur<BR>Koopzondag: elke eerste zondag van de maand van 13.00 tot 17.00 uur"
+	},
+	{
+		"name": "Middelharnis",
+		"address": "VVV/ANWB Winkel <BR><BR><B>Adres:</B><BR>Vingerling 3<BR>3241 EB Middelharnis<BR>telefoon: (0187) 48 48 70<BR>fax: (0187) 48 78 15",
+		"url": "<B>Openingstijden:</B><BR>Maandag: gesloten<BR>Dinsdag tot en met vrijdag: 9.30 tot 17.00 uur<BR>Zaterdag: 9.30 tot 16.00 uur<BR><BR><B>Periode 13 juni t/m 10 september</B><BR>Maandag: gesloten<BR>Dinsdag tot en met vrijdag: 9.30 tot 17.00 uur<BR>Koopavond: vrijdag tot 21.00 uur<BR>Zaterdag: 09.30 tot 16.00 uur"
+	},
+	{
+		"name": "Naaldwijk",
+		"address": "VVV/ANWB Winkel<BR><BR><B>Adres:</B><BR>Wilhelminaplein 10<BR>2671 GR Naaldwijk<BR>telefoon: (0174) 61 00 31<BR>fax: (0174) 61 00 35",
+		"url": "<B>Openingstijden:</B><BR>Maandag: gesloten<BR>Dinsdag tot en met vrijdag 9.30 tot 17.00 uur<BR>Zaterdag: van 10.00 tot 17.00 uur"
+	},
+	{
+		"name": "Nieuwegein",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Passage 101-103<BR>3431 LN Nieuwegein<BR>telefoon: (088) 269 34 70<BR>fax: (088) 269 34 79",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 12.00 tot 18.00 uur<BR>Dinsdag. woensdag en donderdag: 9.30 tot 18.00 uur<BR>Vrijdag: 09:30-21.00 uur<BR>Zaterdag: 9.30 tot 17.00 uur"
+	},
+	{
+		"name": "Nijkerk",
+		"address": "VVV/ANWB Winkel<BR><BR><B>Adres:</B><BR>Plein 2 B<BR>3861 AB Nijkerk<BR>telefoon: (033) 246 44 65<BR>fax: (033) 246 21 55",
+		"url": "<B>Openingstijden:</B><BR>Maandag: gesloten<BR>Dinsdag tot en met vrijdag: 10.00 tot 17.00 uur<BR>Zaterdag 10.00 tot 14.00 uur"
+	},
+	{
+		"name": "Nijmegen",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Bisschop Hamerstraat 3<BR>6511 NA Nijmegen<BR>telefoon: (088) 269 34 80<BR>fax: (088) 269 34 89",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 12.00 tot 18.00 uur<BR>Dinsdag tot en met vrijdag: 9.30 tot 18.00 uur<BR>Koopavond: donderdag tot 21.00 uur<BR>Zaterdag: 9.30 tot 17.00 uur<BR>Koopzondag: Iedere eerste zondag van de maand van 12.00 tot 17.00 uur"
+	},
+	{
+		"name": "Nijverdal",
+		"address": "VVV/ANWB Winkel<BR><BR><B>Adres:</B><BR>Willem Alexanderstraat 7<BR>7442 MA Nijverdal<BR>telefoon: (0548) 61 27 29",
+		"url": "<B>Openingstijden:</B><BR>Maandag: gesloten<br>Dinsdag tot en met vrijdag: 10.00 tot 17.00 uur<br>Donderdag: koopavond tot 21.00 uur<br>Zaterdag: 10.00 tot 17.00 uur"
+	},
+	{
+		"name": "Nunspeet",
+		"address": "VVV/ANWB Winkel<BR><BR><B>Adres:</B><BR>Stationsplein 1<BR>8071 CH Nunspeet<BR>telefoon: (0341) 27 47 40<BR>fax: (0341) 27 47 48",
+		"url": "<B>Openingstijden:</B><br>Maandag: gesloten<BR>Dinsdag tot en met vrijdag: 9.30 tot 17.00 uur<BR>Zaterdag: 9.30 tot 13.00 uur"
+	},
+	{
+		"name": "Oldenzaal",
+		"address": "VVV/ANWB Winkel <BR><BR><B>Adres:</B><BR>St. Plechelmusplein 5<BR>7571 EG Oldenzaal<BR>telefoon: (0541) 51 40 23<BR>fax: (0541) 51 75 42",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 13.00 tot 17.00 uur<BR>Dinsdag tot en met vrijdag: 10.00 tot 17.00 uur<BR>Zaterdag: 10.00 tot 16.00 uur"
+	},
+	{
+		"name": "Ommen",
+		"address": "VVV/ANWB Winkel<BR><BR><B>Adres:</B><BR>Kruisstraat 6<BR>7731 CR Ommen<BR>telefoon: (0529) 45 16 38<BR>fax: (0529) 45 14 50",
+		"url": "<B>Openingstijden:</B><BR><I>1 oktober 2011 t/m 24 april 2012</I><BR>Maandag: gesloten<BR>Dinsdag t/m vrijdag: 10.00 - 16.30 uur<BR>Zaterdag: 10.00-16.00 uur<br><br><I>25 april t/m 30 september 2012</I><BR>Maandag: gesloten<BR>Dinsdag t/m vrijdag: 10.00 - 17.00 uur<BR>Zaterdag: 10.00 - 16.00 uur"
+	},
+	{
+		"name": "Oosterhout-Dorst",
+		"address": "VVV/ANWB Winkel<BR><BR><B>Adres:</B><BR>Bouwlingplein 1<BR>4901 KZ Oosterhout-Dorst<BR>telefoon: (0162) 46 62 88<BR>fax: (0162) 43 10 48",
+		"url": "<B>Openingstijden:</B><br><I>1 oktober t/m 31 maart</I><BR>Maandag: 13.00 tot 17.00 uur<br>Dinsdag tot en met vrijdag: 10.00 tot 17.00 uur<BR>Zaterdag: 10.00 tot 17.00 uur<br><br><i>1 april t/m 30 september</i><BR>Maandag: 13.00 tot 17.00 uur<BR>Dinsdag tot en met vrijdag: 09.30 tot 17.00 uur<BR>Zaterdag: 10.00 tot 17.00 uur"
+	},
+	{
+		"name": "Oss",
+		"address": "VVV/ANWB Winkel<BR><BR><B>Adres:</B><BR>Spoorlaan 24<BR>5348 KB Oss<BR>telefoon: (0412) 63 36 04<BR>fax: (0412) 65 20 93",
+		"url": "<B>Openingstijden:</B><BR>Maandag tot en met vrijdag: 9.00 tot 17.30 uur<BR>Zaterdag: 10.00 tot 14.00 uur"
+	},
+	{
+		"name": "Oud-Beijerland",
+		"address": "VVV/ANWB Winkel ><BR><BR><B>Adres:</B><BR>Waterstal 1<BR>3262 JR Oud-Beijerland<BR>telefoon: (0186) 61 60 00<BR>fax: (0186) 61 08 68",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 13.00 tot 17.00 uur<BR>Dinsdag tot en met vrijdag: 9.30 tot 12.30 en 13.00 tot 17.00 uur<BR>Zaterdag: 10.00 tot 16.00 uur"
+	},
+	{
+		"name": "Purmerend",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Willem Eggertstraat 108<BR>1441 CJ Purmerend<BR>telefoon: (088) 269 34 90<BR>fax: (088) 269 34 99",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 13.00 tot 18.00 uur<BR>Dinsdag tot en met vrijdag: 9.30 tot 18.00 uur<BR>Koopavond: vrijdag tot 21.00 uur<br>Zaterdag: 9.30 tot 17.00 uur<br>Koopzondag: alle zondagen waarop het winkelcentrum open is van 12.00 tot 17.00 uur"
+	},
+	{
+		"name": "Raalte",
+		"address": "VVV/ANWB Winkel<BR><BR><B>Adres:</B><BR>Varkensmarkt 8<BR>8102 EG Raalte<BR>telefoon: (0572) 35 24 06<BR>fax: (0572) 35 23 43",
+		"url": "<B>Openingstijden:</B><BR>Maandag: gesloten<BR>Dinsdag tot en met vrijdag: 9.30 tot 17.00 uur<BR>Zaterdag: 9.30 tot 16.00 uur"
+	},
+	{
+		"name": "Ridderkerk",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Jorisplein 10a<BR>2981 GB Ridderkerk<BR>telefoon: (088) 269 35 00<BR>fax: (088) 269 35 09",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 13.00 tot 17.30 uur<BR>Dinsdag tot en met vrijdag: 9.30 tot 17.30 uur<BR>Koopavond: vrijdag tot 21.00 uur<br>Zaterdag: 9.30 tot 17.00 uur"
+	},
+	{
+		"name": "Rijswijk",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Prins Willem Alexanderpromenade 39<BR>2284 DH Rijswijk<BR>telefoon:  (088) 269 35 10<BR>fax: (088) 269 35 19",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 12.00 tot 17.30 uur<BR>Dinsdag tot en met vrijdag: 9.30 tot 17.30 uur<BR>Koopavond: donderdag tot 21.00 uur<BR>Zaterdag: 9.30 tot 17.00 uur<BR>Koopzondag: laatste zondag van de maand 12.00 tot 17.00 uur"
+	},
+	{
+		"name": "Roden",
+		"address": "ANWB Winkel<BR>Gevestigd in Kampeerhal De Vrijbuiter<BR><BR><B>Adres:</B><BR>Kanaalstraat 59<BR>9301 LR Roden<BR>telefoon: (088) 269 35 20<BR>fax: (088) 269 35 29",
+		"url": "<B>Openingstijden:</B><BR>Maandag en dinsdag: 10.00 tot 18.00 uur<BR>Woensdag t/m vrijdag: 10.00 tot 21.00 uur<BR>Zaterdag: 10.00 tot 18.00 uur"
+	},
+	{
+		"name": "Roermond",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Roersingelpassage 1<BR>6041 EE Roermond<BR>telefoon: (088) 269 35 30<BR>fax: (088) 269 35 39",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 13.00 tot 18.00 uur<BR>Dinsdag tot en met vrijdag: 9.30 tot 18.00 uur<BR>Koopavond: donderdag tot 21.00 uur<BR>Zaterdag: 9.30 tot 17.00 uur<BR>Koopzondag: 13.00 tot 17.00 uur"
+	},
+	{
+		"name": "Roosendaal",
+		"address": "VVV/ANWB Winkel<BR><BR><B>Adres:</B><BR>Markt 71<BR>4701 PC Roosendaal<BR>telefoon: (0165) 55 44 00<BR>fax: (0165) 56 75 22",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 13.00 tot 17.30 uur <BR>Dinsdag tot en met vrijdag: 10.00 tot 17.30 uur<BR>Zaterdag: 10.00 tot 17.00 uur"
+	},
+	{
+		"name": "Rotterdam centrum",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Binnenwegplein 20<BR>3012 KA Rotterdam<BR>telefoon: (088) 269 35 40<BR>fax: (088) 269 35 49",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 12.00 tot 18.00 uur<BR>Dinsdag t/m vrijdag: 09.30 tot 18.00 uur<BR>Koopavond: vrijdag tot 21.00 uur<br>Zaterdag: 09.30 tot 17.00 uur<br>Zondag: 12.00 tot 17.00 uur"
+	},
+	{
+		"name": "Rotterdam, Alexandrium",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Kleine Beer 5-7 (Alexandrium)<BR>3067 ZW Rotterdam<BR>telefoon: (088) 269 35 50<BR>fax: (088) 269 35 59",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 12.00 tot 17.30 uur<BR>Dinsdag tot en met vrijdag: 9.30 tot 17.30 uur<BR>Koopavond: vrijdag tot 21.00 uur<br>Zaterdag: 9.30 tot 17.00 uur<BR>Zondag: 12.00 tot 17.00 uur"
+	},
+	{
+		"name": "Sittard",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Rosmolenstraat 40<BR>6131 HZ Sittard<BR>telefoon: (088) 269 35 70<BR>fax: (088) 269 35 79",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 13.00 tot 18.00 uur<BR>Dinsdag tot en met vrijdag: 9.30 tot 18.00 uur<BR>Koopavond: donderdag tot 21.00 uur<BR>Zaterdag: 9.30 tot 17.00 uur"
+	},
+	{
+		"name": "Sneek",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Marktstraat 18<BR>8601 CV Sneek<BR>telefoon: (088) 269 35 80<BR>fax: (088) 269 35 89",
+		"url": "<B>Openingstijden:</B><BR>Maandag tot en met vrijdag: 9.30 tot 18.00 uur<BR>Koopavond: donderdag tot 21.00 uur<BR>Zaterdag: 9.30 tot 17.00 uur"
+	},
+	{
+		"name": "Soest",
+		"address": "VVV/ANWB Winkel<BR><BR><B>Adres:</B><BR>Steenhoffstraat 9 b<BR>3764 BH Soest<BR>telefoon: (035) 601 20 75<BR>fax: (035) 602 80 17",
+		"url": "<B>Openingstijden:</B><BR>Maandag: gesloten (van mei t/m augustus geopend van 13.30 tot 17.00)<BR>Dinsdag tot en met vrijdag: 9.30 tot 17.00 uur<BR>Zaterdag: 9.30 tot 15.00  uur"
+	},
+	{
+		"name": "Terneuzen",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Markt 11-13<BR>4531 EP Terneuzen<BR>telefoon: (088)  269 35 90<BR>fax: (088) 269 35 99",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 12.00 tot 17.30 uur <BR>Dinsdag tot en met vrijdag: 9.30 tot 17.30 uur<BR>Koopavond: vrijdag tot 21.00 uur<br>Zaterdag: 9.30 tot 17.00 uur"
+	},
+	{
+		"name": "Tilburg",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Emmapassage 14-16<BR>5038 XA Tilburg<BR>telefoon: (088) 269 36 00<BR>fax: (088) 269 36 09",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 13.00 tot 18.00 uur<BR>Dinsdag tot en met vrijdag: 9.30 tot 18.00 uur<BR>Koopavond: donderdag tot 21.00 uur<BR>Zaterdag: 9.30 tot 17.00 uur<BR>Koopzondag: elke laatste zondag van de maand van 12.00 tot 17.00 uur"
+	},
+	{
+		"name": "Uden",
+		"address": "VVV/ANWB Winkel<BR><BR><B>Adres:</B><BR>Mondriaanplein 22 a<BR>5401 HX Uden<BR>telefoon: (0413) 25 07 77<BR>fax: (0413) 25 52 02",
+		"url": "<B>Openingstijden:</B><BR>Maandag tot en met vrijdag: 9.30 tot 17.30 uur<BR>Zaterdag: 10.00-17.00 uur"
+	},
+	{
+		"name": "Utrecht, Hoog Catharijne",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Boven Clarenburg (Hoog Catharijne) 69-71<BR>3511 CS Utrecht<BR>telefoon: (088) 269 36 20<BR>fax: (088) 269 36 29",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 12.00 tot 18.00 uur<BR>Dinsdag tot en met vrijdag: 9.30 tot 18.00 uur<BR>Koopavond: donderdag tot 21.00 uur<BR>Zaterdag: 9.30 tot 17.00 uur<BR>Koopzondag: elke eerste zondag van de maand van 12.00 tot 17.00 uur"
+	},
+	{
+		"name": "Utrecht, Kanaleneiland",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Hammarskjoldhof 74<BR>3527 HE Utrecht<BR>telefoon: (088) 269 36 10<BR>fax: (088) 269 36 19",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 12.00 tot 18.00 uur<BR>Dinsdag tot en met vrijdag 9.30 tot 18.00 uur<BR>Koopavond donderdag tot 20.00 uur (mei t/m juli 21.00 uur)<BR>Zaterdag: 9.30 tot 17.00 uur"
+	},
+	{
+		"name": "Utrecht, keuringsstation",
+		"address": "Keuringsstation<BR><BR><B>Adres:</B><BR>Winthontlaan 40<BR>3526 KV Utrecht<BR>telefoon: 088 269 28 25<BR>e-mail: <A HREF=\"mailto:autokeuringutrecht@anwb.nl\">autokeuringdenhaag@anwb.nl</A>",
+		"url": "<B>Openingstijden:</B><BR>Maandag tot en met vrijdag: 8.00 tot 17.00 uur."
+	},
+	{
+		"name": "Utrecht, Overvecht",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Zamenhofdreef 99<BR>3562 JV Utrecht<BR>telefoon: (088) 269 36 30<BR>fax: (088) 269 36 39",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 13.00 tot 18.00 uur<BR>Dinsdag tot en met vrijdag: 9.30 tot 18.00 uur<BR>Koopavond: donderdag tot 20.00 uur<BR>Zaterdag: 9.30 tot 17.00 uur<br>Koopzondag: gelijk aan de koopzondagen van het winkelcentrum van 12.00 tot 17.00 uur"
+	},
+	{
+		"name": "Valkenswaard",
+		"address": "VVV/ANWB Winkel<BR><BR><B>Adres:</B><BR>Oranje Nassaustraat 8 a <BR>5554 AG Valkenswaard<BR>telefoon: (040) 201 51 15<BR>fax: (040) 204 08 05",
+		"url": "<B>Openingstijden:</B><BR>Maandag tot en met vrijdag: 9.00 tot 17.00 uur<BR>Zaterdag: 10.00 tot 13.00 uur"
+	},
+	{
+		"name": "Veenendaal",
+		"address": "VVV/ANWB Winkel<BR><BR><B>Adres:</B><BR>Kerkewijk 10<BR>3901 EG Veenendaal<BR>telefoon: (0318) 52 98 00<BR>fax: (0318) 55 31 33",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 13.00 tot 17.00 uur<BR>Dinsdag tot en met vrijdag: 9.30 tot 17.00 uur<BR>Zaterdag: 9.30 tot 14.00 uur"
+	},
+	{
+		"name": "Venlo",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Steenstraat 1<BR>5911 HE Venlo<BR>telefoon: (088) 269 36 40<BR>fax: (088) 269 36 49",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 13.00 tot 18.00 uur<BR>Dinsdag tot en met vrijdag: 9.30 tot 18.00 uur<BR>Koopavond: donderdag tot 21.00 uur<BR>Zaterdag: 9.30 tot 17.00 uur<BR>Koopzondag: elke eerste zondag van de maand van 12.00 tot 17.00 uur"
+	},
+	{
+		"name": "Venray",
+		"address": "VVV/ANWB Winkel <BR><BR><B>Adres:</B><BR>Henseniusplein 13<BR>5801 BB Venray<BR>telefoon: (0478) 51 05 05<BR>fax (0478) 51 27 36",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 12.00 tot 18.00 uur<BR>Dinsdag tot en met vrijdag: 9.30 tot 18.00 uur<BR>Zaterdag: 9.30 tot 17.00 uur"
+	},
+	{
+		"name": "Vlaardingen",
+		"address": "VVV/ANWB Winkel<BR><BR><B>Adres:</B><BR>Westhavenkade 39<BR>3131 AD Vlaardingen<BR>telefoon: (010) 434 66 66<BR>fax: (010) 435 89 97",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 13.00 tot 17.30 uur<BR>Dinsdag tot en met vrijdag: 9.30 tot 17.30 uur<BR>Zaterdag: 9.30 tot 17.00 uur"
+	},
+	{
+		"name": "Vlissingen",
+		"address": "VVV/ANWB Winkel<BR><BR><B>Adres:</B><BR>Spuistraat 46<BR>4381 HS Vlissingen<BR>telefoon: (0118) 71 53 20<BR>fax (0118) 42 21 91<BR>",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 13.00 tot 17.30 uur<BR>Dinsdag tot en met vrijdag: 9.30 tot 17.30 uur<BR>Koopavond: vrijdag tot 21.00 uur<BR>Zaterdag: 09.30 tot 17.00 uur<br>Koopzondag: elke laatste zondag van de maand van 13.00 tot 17.00 uur"
+	},
+	{
+		"name": "Waalwijk",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Stationsstraat 51<BR>5141 GC Waalwijk<BR>telefoon: (088) 269 36 50<BR>fax: (088) 269 36 59",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 13.00 tot 18.00 uur<BR>Dinsdag tot en met vrijdag: 9.30 tot 18.00 uur<BR>Koopavond: vrijdag tot 21.00 uur<br>Zaterdag: 9.30 tot 17.00 uur"
+	},
+	{
+		"name": "Weert",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Maasstraat 18<BR>6001 EC Weert<BR>telefoon: (088) 269 36 60<BR>fax: (088) 269 36 69",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 13.00 tot 18.00 uur<BR>Dinsdag tot en met vrijdag: 9.30 tot 18.00 uur<BR>Koopavond: donderdag tot 21.00 uur (apr t/m sep)<BR>Zaterdag: 9.30 tot 17.00 uur"
+	},
+	{
+		"name": "Winterswijk",
+		"address": "VVV/ANWB Winkel<BR><BR><B>Adres:</B><BR>Markt 17a<BR>7101 DA Winterswijk<BR>telefoon: (0543) 51 23 02<BR>fax: (0543) 52 40 81",
+		"url": "<B>Openingstijden:</B><BR>Maandag: gesloten<BR>Dinsdag tot en met vrijdag: 9.30 tot 17.30 uur<BR>Zaterdag: 9.30 tot 16.00 uur"
+	},
+	{
+		"name": "Zaandam",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Gedempte Gracht 66<BR>1506 CJ Zaandam<BR>telefoon: (088) 269 36 70<BR>fax: (088) 269 36 79",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 12.00 tot 18.00 uur <BR>Dinsdag tot en met vrijdag: 9.30 tot 18.00 uur<BR>Koopavond: donderdag tot 21.00 uur<BR>Zaterdag: 9.30 tot 17.00 uur<br>Koopzondag: elke laatste zondag van de maand van 12.00 tot 17.00 uur"
+	},
+	{
+		"name": "Zeist",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Eerste Hogeweg 10 B<BR>3701 HK Zeist<BR>telefoon: (088) 269 36 80<BR>fax: (088) 269 36 89",
+		"url": "<B>Openingstijden:</B><br>Maandag: 12.00 tot 18.00 uur<br>Dinsdag tot en met vrijdag: 9.30 tot 18.00 uur<br>Koopavond: vrijdag tot 21.00 uur<br>Zaterdag: 9.30 tot 17.00 uur"
+	},
+	{
+		"name": "Zoetermeer",
+		"address": "ANWB Winkel<BR><BR><B>Adres:</B><BR>Zuidwaarts 7<BR>2711 HA  Zoetermeer<BR>telefoon: (088) 269 36 90<BR>fax: (088) 269 36 99",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 12.00 tot 18.00 uur<BR>Dinsdag tot en met vrijdag: 9.30 tot 18.00 uur<BR>Koopavond: vrijdag tot 21.00 uur (apr t/m sep)<br>Zaterdag: 9.30 tot 17.00 uur<BR>Zondag: elke 1e zondag van de maand van 12.00 tot 17.00 uur"
+	},
+	{
+		"name": "Zutphen",
+		"address": "VVV/ANWB Winkel<BR><BR><B>Adres:</B><BR>Stationsplein 39<BR>7201 MH Zutphen<BR>telefoon: (0575) 51 93 55<BR>fax: (0575) 51 79 28",
+		"url": "<B>Openingstijden:</B><BR>Maandag: 11.00 tot 17.30 uur<BR>Dinsdag tot en met vrijdag: 9.00 tot 17.30 uur<BR>Zaterdag: 9.00 tot 16.00 uur"
+	}
+]
+}

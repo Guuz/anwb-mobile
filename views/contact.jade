@@ -1,0 +1,37 @@
+extends layout
+
+block content
+	div(data-role="content")
+		h2= title
+		p Heeft u een vraag, een opmerking of een klacht? We horen het graag van u. Op deze pagina ziet u de verschillende manieren waarop u deze aan de ANWB kunt voorleggen.
+
+		h3 Telefoonnummers
+		p Hieronder vindt u een overzicht van de telefoonnummers van de belangrijkste ANWB-afdelingen en -telefoondiensten.
+		p
+			strong= "ANWB Contact Center - "
+			a(href="tel:0882692222") 088 269 22 22
+			br
+			| Informatie over en verkoop van alle ANWB-diensten en -producten. <br />
+			| Ook reisadvies en informatie over verzekeringen, recreatie en toerisme. <br />
+			| Maandag tot en met vrijdag: 8.00 - 20.00 uur. <br />
+			| Zaterdag: 8.30 - 17.00 uur. <br />
+			| Zon- en feestdagen: gesloten
+		p
+			strong= "Wegenwacht - "
+			a(href="tel:0882692888") 088 269 28 88
+			br
+			| Voor hulp bij pech onderweg. <br />
+			| Dag en nacht.
+		p
+			strong= "Alarmcentrale - "
+			span= "Vanuit buitenland: "
+			a(href="tel:+31703141414") +31 70 314 14 14
+			span= " - in Nederland: "
+			a(href="tel:0882692888") 088 269 28 88
+			br
+			| Voor hulp bij onder meer pech, ongeval en ziekte in het buitenland. <br />
+			| Dag en nacht.
+		h3 Vestigingen in Nederland
+		ul(data-role="listview", data-filter="true", data-filter-placeholder="Zoek in alle ANWB vestigingen")
+			each vestiging in vestigingen
+				li= vestiging.name

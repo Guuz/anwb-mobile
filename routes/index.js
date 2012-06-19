@@ -11,6 +11,17 @@ exports.index = function( req, res ) {
 
 
 /*
+ * GET contact page.
+ */
+
+exports.contact = function( req, res ) {
+	req.locals.title = 'Contact';
+	res.render( 'contact', req.locals );
+};
+
+
+
+/*
  * GET main apps page.
  */
 
