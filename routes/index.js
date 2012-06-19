@@ -22,6 +22,18 @@ exports.contact = function( req, res ) {
 
 
 /*
+ * GET privacy page.
+ */
+
+exports.privacy = function( req, res ) {
+	req.locals = req.locals || {};
+	req.locals.title = 'Uw privacy';
+	res.render( 'privacy', req.locals );
+};
+
+
+
+/*
  * GET main apps page.
  */
 

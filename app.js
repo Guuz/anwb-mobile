@@ -53,6 +53,7 @@ app.configure('production', function() {
 app.get('/', routes.index);
 app.get('/apps', apps.getAppsCount, routes.apps);
 app.get('/contact', vestigingen.getVestigingen, routes.contact);
+app.get('/privacy', routes.privacy);
 app.get('/apps/:platform', apps.getApps, routes.apps_platform);
 
 
