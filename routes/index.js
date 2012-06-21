@@ -1,5 +1,3 @@
-var apps = require('../model/apps/index')
-
 /*
  * GET home page.
  */
