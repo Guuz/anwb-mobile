@@ -50,47 +50,59 @@ exports.getAppsCount = function( req, res, next ) {
 
 
 var _androidApps = [
-						{
-							platform: 'Android'
-							, name: 'Verkeer'
-							, version: '1.1'
-							, description: 'Snel en eenvoudig files en flitsers checken kan nu altijd en overal.'
-							, link: 'https://play.google.com/store/apps/details?id=com.themobilecompany.ANWBVerkeer'
-							, tags: ['verkeer']
-						},
-						{
-							platform: 'Android'
-							, name: 'Wegenwacht'
-							, version: '1.1'
-							, description: 'Een handige hulp bij pech, maar zeker ook om pech te voorkomen! Met de Wegenwacht applicatie van de ANWB kunt u snel en gemakkelijk in contact komen met de Wegenwacht.'
-							, link: 'https://play.google.com/store/apps/details?id=com.themobilecompany.ANWBWegenwacht'
-							, tags: ['wegenwacht']
-						},
-						{
-							platform: 'Android'
-							, name: 'Reishulp'
-							, version: '1.1'
-							, description: 'Met de ANWB Reishulp applicatie heeft u alle belangrijke informatie op –en over- uw vakantiebestemming direct bij de hand.'
-							, link: 'https://play.google.com/store/apps/details?id=com.themobilecompany.Reishulp'
-							, tags: ['reishulp', 'wegenwacht']
-						},
-						{
-							platform: 'Android'
-							, name: 'Land van ANWB'
-							, version: '1.0'
-							, description: 'Met de Land van ANWB App heeft u informatie over de leukste uitjes van Nederland direct bij de hand.'
-							, link: 'https://play.google.com/store/apps/details?id=com.afrogleap.anwb'
-							, tags: ['vrijetijd']
-						}
+						new App(
+							 'Android'
+							, 'Verkeer'
+							, '1.1'
+							, 'Snel en eenvoudig files en flitsers checken kan nu altijd en overal.'
+							, 'https://play.google.com/store/apps/details?id=com.themobilecompany.ANWBVerkeer'
+							, ['verkeer']
+						),
+						new App(
+							'Android'
+							, 'Wegenwacht'
+							, '1.1'
+							, 'Een handige hulp bij pech, maar zeker ook om pech te voorkomen! Met de Wegenwacht applicatie van de ANWB kunt u snel en gemakkelijk in contact komen met de Wegenwacht.'
+							, 'https://play.google.com/store/apps/details?id=com.themobilecompany.ANWBWegenwacht'
+							, ['wegenwacht']
+						),
+						new App(
+							'Android'
+							, 'Reishulp'
+							, '1.1'
+							, 'Met de ANWB Reishulp applicatie heeft u alle belangrijke informatie op –en over- uw vakantiebestemming direct bij de hand.'
+							, 'https://play.google.com/store/apps/details?id=com.themobilecompany.Reishulp'
+							, ['reishulp', 'wegenwacht']
+						),
+						new App(
+							'Android'
+							, 'Land van ANWB'
+							, '1.0'
+							, 'Met de Land van ANWB App heeft u informatie over de leukste uitjes van Nederland direct bij de hand.'
+							, 'https://play.google.com/store/apps/details?id=com.afrogleap.anwb'
+							, ['vrijetijd']
+						)
 					];
 
 var _iosApps = [
-					{
-						platform: 'IOS'
-						, name: 'Verkeer'
-						, version: '2.0.1'
-						, description: 'Snel en eenvoudig files en flitsers checken kan nu altijd en overal.'
-						, link: 'http://itunes.apple.com/nl/app/anwb-verkeer/id325937652?mt=8'
-						, tags: ['verkeer']
-					}
+					new App(
+						'IOS'
+						, 'Verkeer'
+						, '2.0.1'
+						, 'Snel en eenvoudig files en flitsers checken kan nu altijd en overal.'
+						, 'http://itunes.apple.com/nl/app/anwb-verkeer/id325937652?mt=8'
+						, ['verkeer']
+					)
 				];
+
+/*
+ * App class, bevat alle data/logica van de apps.
+ */
+function App( platform, name, version, description, link, tags ) {
+	this.platform = platform;
+	this.name = name;
+	this.version = version;
+	this.description = description;
+	this.link = link;
+	this.tags = tags;
+}
