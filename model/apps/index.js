@@ -20,8 +20,15 @@ exports.getApps = function( req, res, next ) {
 	// Other
 	} else {
 		apps.platform = 'All';
-		apps.apps = _androidApps;
-		apps.apps.concat( _iosApps );
+		apps.apps = [];
+		for( var i in _androidApps ) {
+			// Voeg de androidApps toe aan alle apps.
+			apps.apps.push( _androidApps[i] );
+		}
+		for( var i in _iosApps ) {
+			// Voeg de iosApps toe aan alle apps.
+			apps.apps.push( _iosApps[i] );
+		}
 	}
 
 	req.locals.apps = apps
