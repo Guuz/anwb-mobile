@@ -1,11 +1,14 @@
+var apps = require('../model/apps/index')
+
 /*
  * GET home page.
  */
 
 exports.index = function( req, res ) {
 	res.header('Cache-Control', 'max-age=900, public, must-revalidate');
-	req.locals = req.locals || {};
+	initLocals( req, res );
 	req.locals.title = 'ANWB Mobiel';
+	console.log(req.locals);
 	res.render( 'index', req.locals );
 };
 
@@ -17,6 +20,7 @@ exports.index = function( req, res ) {
 
 exports.contact = function( req, res ) {
 	res.header('Cache-Control', 'max-age=86400, public, must-revalidate');
+	initLocals( req, res );
 	req.locals.title = 'Contact';
 	res.render( 'contact', req.locals );
 };
@@ -29,7 +33,7 @@ exports.contact = function( req, res ) {
 
 exports.privacy = function( req, res ) {
 	res.header('Cache-Control', 'max-age=86400, public, must-revalidate');
-	req.locals = req.locals || {};
+	initLocals( req, res );
 	req.locals.title = 'Uw privacy';
 	res.render( 'privacy', req.locals );
 };
@@ -42,7 +46,7 @@ exports.privacy = function( req, res ) {
 
 exports.vereniging = function( req, res ) {
 	res.header('Cache-Control', 'max-age=86400, public, must-revalidate');
-	req.locals = req.locals || {};
+	initLocals( req, res );
 	req.locals.title = 'Vereniging en bedrijf';
 	res.render( 'vereniging', req.locals );
 };
@@ -54,6 +58,7 @@ exports.vereniging = function( req, res ) {
  */
 
 exports.verkeer = function( req, res ) {
+	initLocals( req, res );
 	req.locals.title = 'Verkeersinformatie';
 	res.render( 'verkeer', req.locals );
 };
@@ -66,6 +71,7 @@ exports.verkeer = function( req, res ) {
 
 exports.apps = function( req, res ) {
 	res.header('Cache-Control', 'max-age=900, public, must-revalidate');
+	initLocals( req, res );
 	req.locals.title = 'Apps';
 	res.render( 'apps', req.locals );
 };
@@ -78,6 +84,12 @@ exports.apps = function( req, res ) {
 
 exports.apps_platform = function( req, res ) {
 	res.header('Cache-Control', 'max-age=900, public, must-revalidate');
+	initLocals( req, res );
 	req.locals.title = req.locals.apps.platform + ' apps';
 	res.render( 'apps_platform', req.locals );
 };
+
+
+function initLocals( req, res ) {
+	req.locals = req.locals || {};
+}

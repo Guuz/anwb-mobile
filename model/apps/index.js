@@ -19,8 +19,9 @@ exports.getApps = function( req, res, next ) {
 
 	// Other
 	} else {
-		next( new Error('Failed to get apps for "' + req.params.platform + '" platform') );
-		return;
+		apps.platform = 'All';
+		apps.apps = _androidApps;
+		apps.apps.concat( _iosApps );
 	}
 
 	req.locals.apps = apps
@@ -50,36 +51,46 @@ exports.getAppsCount = function( req, res, next ) {
 
 var _androidApps = [
 						{
-							  name: 'Verkeer'
+							platform: 'Android'
+							, name: 'Verkeer'
 							, version: '1.1'
 							, description: 'Snel en eenvoudig files en flitsers checken kan nu altijd en overal.'
 							, link: 'https://play.google.com/store/apps/details?id=com.themobilecompany.ANWBVerkeer'
+							, tags: ['verkeer']
 						},
 						{
-							  name: 'Wegenwacht'
+							platform: 'Android'
+							, name: 'Wegenwacht'
 							, version: '1.1'
 							, description: 'Een handige hulp bij pech, maar zeker ook om pech te voorkomen! Met de Wegenwacht applicatie van de ANWB kunt u snel en gemakkelijk in contact komen met de Wegenwacht.'
 							, link: 'https://play.google.com/store/apps/details?id=com.themobilecompany.ANWBWegenwacht'
+							, tags: ['wegenwacht']
 						},
 						{
-							  name: 'Reishulp'
+							platform: 'Android'
+							, name: 'Reishulp'
 							, version: '1.1'
 							, description: 'Met de ANWB Reishulp applicatie heeft u alle belangrijke informatie op –en over- uw vakantiebestemming direct bij de hand.'
 							, link: 'https://play.google.com/store/apps/details?id=com.themobilecompany.Reishulp'
+							, tags: ['reishulp', 'wegenwacht']
 						},
 						{
-							  name: 'Land van ANWB'
+							platform: 'Android'
+							, name: 'Land van ANWB'
 							, version: '1.0'
 							, description: 'Met de Land van ANWB App heeft u informatie over de leukste uitjes van Nederland direct bij de hand.'
 							, link: 'https://play.google.com/store/apps/details?id=com.afrogleap.anwb'
+							, tags: ['vrijetijd']
 						}
 					];
 
 var _iosApps = [
 					{
-						  name: 'Verkeer'
+						platform: 'IOS'
+						, name: 'Verkeer'
 						, version: '2.0.1'
 						, description: 'Snel en eenvoudig files en flitsers checken kan nu altijd en overal.'
 						, link: 'http://itunes.apple.com/nl/app/anwb-verkeer/id325937652?mt=8'
+						, tags: ['verkeer']
 					}
 				];

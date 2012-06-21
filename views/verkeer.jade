@@ -1,7 +1,7 @@
 extends layout
 
 block content
-	div(data-role="content")
+	div(data-role="content", id="content", data-apptags="verkeer")
 		h2= title
 		- var timestamp =  new Date().toTimeString()
 		- timestamp = timestamp.split(':', 2)
