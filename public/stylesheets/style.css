@@ -5,3 +5,7 @@
 .footer a {
 	font-size: 80%;
 }
+
+.hidden {
+	display: none !important;
+}
