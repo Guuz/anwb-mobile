@@ -4,7 +4,7 @@
 	 * Toont de gerelateerde apps van de actieve pagina.
 	 */
 	function toonGerelateerdeApps() {
-		var   $content = $('.ui-page-active #content')
+		var   $content = $('.ui-page-active')
 			, pageTags = $content.data('apptags')
 			, appsFound = false
 
