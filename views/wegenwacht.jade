@@ -1,0 +1,31 @@
+extends layout
+
+block content
+	div(data-role="content")
+		h2= title
+		p
+			a(href="tel:0031882692888", data-role="button", data-icon="alert", data-theme="b") Direct pech melden
+			a(href="tel:0031882692222", data-role="button", data-icon="info", data-theme="b") Bel voor meer informatie
+		h3 Nederland Service
+		p.
+			Bij 9 van de 10 pechgevallen snel weer met uw eigen auto op weg.
+			Voor ruim 3,5 miljoen leden de beste hulp bij pech onderweg.
+		h3 Europa Service
+		p.
+			Als u met uw eigen auto op vakantie naar het buitenland gaat.
+			Door heel Europa verzekerd van de vertrouwde pechhulp en ondersteuning via de ANWB Alarmcentrale.
+		p
+			img.promo(src="http://www.anwb.nl/binaries/images/wegenwacht_nw/wegenwacht-lid-worden/wegenwacht-lid-worden-original.jpg", alt="wegenwacht auto")
+		h3 Lid worden
+		p Kies het type lidmaatschap en sluit deze af op anwb.nl
+		form.ui-body.ui-body-a(action="https://www.anwb.nl/wegenwacht/pages/public/lidworden.jsf", method="get")
+			div(data-role="fieldcontain")
+				fieldset(data-role="controlgroup")
+					legend Type lidmaatschap:
+					input(type="radio", name="pkgCode", id="wegenwacht-LidWordenWN", value="WN")
+					label(for="wegenwacht-LidWordenWN") Nederland Service
+
+					input(type="radio", name="pkgCode", id="wegenwacht-LidWordenWE", value="WE")
+					label(for="wegenwacht-LidWordenWE") Europa Service
+			fieldset
+				button(type="submit", data-theme="b", data-icon="forward", data-iconpos="right") Ga verder

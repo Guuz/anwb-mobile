@@ -58,6 +58,7 @@ app.get('/welkom', routes.welkom);
 app.get('/contact', vestigingen.getVestigingen, routes.contact);
 app.get('/privacy', routes.privacy);
 app.get('/vereniging', routes.vereniging);
+app.get('/wegenwacht', apps.getApps, routes.wegenwacht);
 app.get('/verkeer', verkeer.getFeed, apps.getApps, routes.verkeer);
 app.get('/apps/:platform', apps.getApps, routes.apps_platform);
 

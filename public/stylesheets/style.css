@@ -10,3 +10,9 @@
 .hidden {
 	display: none !important;
 }
+
+img.promo {
+	width: 100%;
+	box-shadow: 2px 2px 3px rgba(134, 134, 134, 0.34);
+	border: 1px solid #CACACA;
+}

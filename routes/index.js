@@ -75,6 +75,20 @@ exports.welkom = function( req, res ) {
 
 
 /*
+ * GET wegenwacht page.
+ */
+
+exports.wegenwacht = function( req, res ) {
+	res.header('Cache-Control', 'max-age=86400, public, must-revalidate');
+	req.locals = req.locals || {};
+	req.locals.title = 'Wegenwacht';
+	req.locals.apptags = ['wegenwacht'];
+	res.render( 'wegenwacht', req.locals );
+};
+
+
+
+/*
  * GET verkeer page.
  */
 
