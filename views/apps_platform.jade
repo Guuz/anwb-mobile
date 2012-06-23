@@ -9,9 +9,9 @@ block content
 					h2= app.name
 					p= app.description
 					p
-						if apps.platform == 'Android'
+						if app.platform == 'Android'
 							a(href="#{app.link}", data-rel="external") Play Store
-						else if apps.platform == 'iOS'
+						else if app.platform == 'iOS'
 							a(href="#{app.link}", data-rel="external") App Store
 						br
 						| Versie: #{app.version}

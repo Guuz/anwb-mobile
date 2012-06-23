@@ -1,3 +1,5 @@
+// TODO: Need to find a better way to initialise the required locals.
+
 /*
  * GET home page.
  */
@@ -6,6 +8,8 @@ exports.index = function( req, res ) {
 	res.header('Cache-Control', 'max-age=900, public, must-revalidate');
 	req.locals = req.locals || {};
 	req.locals.title = 'ANWB Mobiel';
+	req.locals.apps = {apps:{}};
+	req.locals.apptags = null;
 	res.render( 'index', req.locals );
 };
 
@@ -18,6 +22,8 @@ exports.index = function( req, res ) {
 exports.contact = function( req, res ) {
 	res.header('Cache-Control', 'max-age=86400, public, must-revalidate');
 	req.locals.title = 'Contact';
+	req.locals.apps = {apps:{}};
+	req.locals.apptags = null;
 	res.render( 'contact', req.locals );
 };
 
@@ -31,6 +37,8 @@ exports.privacy = function( req, res ) {
 	res.header('Cache-Control', 'max-age=86400, public, must-revalidate');
 	req.locals = req.locals || {};
 	req.locals.title = 'Uw privacy';
+req.locals.apps = {apps:{}};
+	req.locals.apptags = null;
 	res.render( 'privacy', req.locals );
 };
 
@@ -44,6 +52,8 @@ exports.vereniging = function( req, res ) {
 	res.header('Cache-Control', 'max-age=86400, public, must-revalidate');
 	req.locals = req.locals || {};
 	req.locals.title = 'Vereniging en bedrijf';
+	req.locals.apps = {apps:{}};
+	req.locals.apptags = null;
 	res.render( 'vereniging', req.locals );
 };
 
@@ -55,6 +65,7 @@ exports.vereniging = function( req, res ) {
 
 exports.verkeer = function( req, res ) {
 	req.locals.title = 'Verkeersinformatie';
+	req.locals.apptags = 'verkeer';
 	res.render( 'verkeer', req.locals );
 };
 
@@ -67,6 +78,8 @@ exports.verkeer = function( req, res ) {
 exports.apps = function( req, res ) {
 	res.header('Cache-Control', 'max-age=900, public, must-revalidate');
 	req.locals.title = 'Apps';
+	req.locals.apps = {apps:{}};
+	req.locals.apptags = null;
 	res.render( 'apps', req.locals );
 };
 
@@ -79,5 +92,7 @@ exports.apps = function( req, res ) {
 exports.apps_platform = function( req, res ) {
 	res.header('Cache-Control', 'max-age=900, public, must-revalidate');
 	req.locals.title = req.locals.apps.platform + ' apps';
+	req.locals.apps = {apps:{}};
+	req.locals.apptags = null;
 	res.render( 'apps_platform', req.locals );
 };

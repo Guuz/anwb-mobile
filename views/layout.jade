@@ -21,7 +21,7 @@ html(lang="nl")
 		script(src="http://code.jquery.com/jquery-1.7.2.min.js")
 		script(src="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.js")
 	body
-		div(data-role="page", data-theme="e")
+		div(data-role="page", data-theme="e", data-apptags=apptags)
 			div(data-role="header")
 				h1= title
 				a(href="/", data-icon="home", data-iconpos="notext", data-transition="flip") Home
@@ -34,5 +34,5 @@ html(lang="nl")
 					a(href="/contact") Contact
 					span= " - "
 					a(href="/privacy") Privacy
-			div.scripts
-				script(src="/javascripts/script.js")
+		div#scripts
+			script(src="/javascripts/script.js")

@@ -52,19 +52,18 @@ app.configure('production', function() {
  * Routes
  */
 
-// Haal alle app-informatie op.
-app.get('*', apps.getAppsCount, apps.getApps);
-
 app.get('/', routes.index);
-app.get('/apps', routes.apps);
+app.get('/apps', apps.getAppsCount, routes.apps);
 app.get('/contact', vestigingen.getVestigingen, routes.contact);
 app.get('/privacy', routes.privacy);
 app.get('/vereniging', routes.vereniging);
-app.get('/verkeer', verkeer.getFeed, routes.verkeer);
-app.get('/apps/:platform', routes.apps_platform);
+app.get('/verkeer', verkeer.getFeed, apps.getApps, routes.verkeer);
+app.get('/apps/:platform', apps.getApps, routes.apps_platform);
 
 
-app.get('*', function(req, res){
+app.get('*', function(req, res) {
+	// Temporarily log a warning to test the stderr logfile.
+	console.warn('404 on', req.url);
 	res.send('not found...', 404);
 });
 
