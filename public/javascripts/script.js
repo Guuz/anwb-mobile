@@ -16,13 +16,11 @@ function toonGerelateerdeApps( e ) {
 	if( !appTags || !$relatedApps.hasClass('hidden') ) {
 		return;
 	}
-	console.log('show apps', $page, appTags, $relatedApps)
 
 	$relatedApp.each(function() {
 		var $this = $(this);
 
 		if( $this.data('apptags').indexOf( appTags ) != -1 ) {
-			console.log('gevonden', $this.data('apptags'), appTags)
 			// Correcte app gevonden!
 			$this.removeClass('hidden');
 			appsFound = true;
@@ -30,7 +28,6 @@ function toonGerelateerdeApps( e ) {
 	});
 
 	if( appsFound ) {
-		console.log('show container', $relatedApps)
 		// Gerelateerde apps zijn gevonden; display de container.
 		$relatedApps.removeClass('hidden');
 	}
