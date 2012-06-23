@@ -60,6 +60,21 @@ exports.vereniging = function( req, res ) {
 
 
 /*
+ * GET welkom page.
+ */
+
+exports.welkom = function( req, res ) {
+	res.header('Cache-Control', 'max-age=86400, public, must-revalidate');
+	req.locals = req.locals || {};
+	req.locals.title = 'Welkom op m.anwb.nl!';
+	req.locals.apps = {apps:{}};
+	req.locals.apptags = null;
+	res.render( 'welkom', req.locals );
+};
+
+
+
+/*
  * GET verkeer page.
  */
 

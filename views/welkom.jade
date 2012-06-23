@@ -1,0 +1,18 @@
+extends layout
+
+block content
+	div(data-role="content")
+		h2= title
+		p
+			strong Welkom op de nieuwe mobiele website van de ANWB.
+		- var anwbnl = '<a href="http://www.anwb.nl" rel="external">www.anwb.nl</a>';
+		- var anwbmobi = '<a href="http://www.anwb.mobi" rel="external">www.anwb.mobi</a>';
+		p
+			| Voor jouw gemak bieden wij, naast !{anwbnl}, ook deze lichtere, voor smartphone geoptimaliseerde website van de ANWB.
+			| We zullen de mobiele website blijven updaten met nuttige informatie maar het aanbod zal beperkter blijven.
+			| Niet alle informatie, diensten en producten die je op !{anwbnl} kan vinden zijn hier beschikbaar.
+			| Dit is een bewuste keuze zodat u hier gemakkelijk en snel de meest gebruikte informatie kunt vinden.
+			| Onderweg via je mobiele telefoon of thuis op de bank met je tablet.
+		p
+			| Voorlopig blijft !{anwbmobi} nog beschikbaar. Dus mocht je nog dingen missen, vindt je die wellicht daar.
+		a(href="/", data-role="button", data-icon="check", data-theme="b", data-transition="flow") Ok!
