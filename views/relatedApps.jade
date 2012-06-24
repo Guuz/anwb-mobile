@@ -1,14 +1,17 @@
-div(data-role="content", class="hidden relatedApps")
-	h2 Gerelateerde apps
-	div(data-role="collapsible-set", data-theme="b", data-content-theme="b")
-		each app in apps.apps
-			div(data-role="collapsible", class="relatedApp hidden", data-apptags="#{app.tags}")
-				h2= app.name + ' (' + app.platform + ')'
-				p= app.description
-				p
-					if app.platform == 'Android'
-						a(href="#{app.link}", data-rel="external") Play Store
-					else if app.platform == 'iOS'
-						a(href="#{app.link}", data-rel="external") App Store
-					br
-					| Versie: #{app.version}
+if apptags
+	div(data-role="content", class="relatedApps")
+		h2 Gerelateerde apps
+		div(data-role="collapsible-set", data-theme="b", data-content-theme="b")
+			each app in apps.apps
+				for apptag in apptags
+					if app.tags.indexOf( apptag ) > -1
+						div(data-role="collapsible", class="relatedApp", data-apptags="#{app.tags}")
+							h2= app.name + ' (' + app.platform + ')'
+							p= app.description
+							p
+								if app.platform == 'Android'
+									a(href="#{app.link}", data-rel="external") Play Store
+								else if app.platform == 'iOS'
+									a(href="#{app.link}", data-rel="external") App Store
+								br
+								| Versie: #{app.version}

@@ -110,6 +110,14 @@ var _iosApps = [
 	),
 	new App(
 		'iOS'
+		, 'Wegenwacht'
+		, '1.2'
+		, 'Met de Wegenwacht applicatie van de ANWB kunt u snel en gemakkelijk in contact komen met de Wegenwacht. Zowel in binnenland als buitenland* weet de Wegenwacht waar u staat. Met behulp van de applicatie wordt namelijk een telefoonverbinding tot stand gebracht waarbij, indien gewenst, tevens uw locatie wordt doorgeven aan de ANWB. Dit kan u tijd en moeite besparen bij het beschrijven van uw locatie.'
+		, 'http://itunes.apple.com/nl/app/wegenwacht/id428468876?mt=8'
+		, ['wegenwacht']
+	),
+	new App(
+		'iOS'
 		, 'Voordeel'
 		, '1.0.2'
 		, 'Gezellig uit eten en profiteren van een aantrekkelijk voordeel; Als ANWB lid ontvangt je tussen de 10 en 25% korting op de rekening bij geselecteerde restaurants in heel Nederland.'

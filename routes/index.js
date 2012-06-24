@@ -94,7 +94,7 @@ exports.wegenwacht = function( req, res ) {
 
 exports.verkeer = function( req, res ) {
 	req.locals.title = 'Verkeersinformatie';
-	req.locals.apptags = 'verkeer';
+	req.locals.apptags = ['verkeer'];
 	res.render( 'verkeer', req.locals );
 };
 
