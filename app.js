@@ -64,9 +64,7 @@ app.get('/apps/:platform', apps.getApps, routes.apps_platform);
 
 
 app.get('*', function(req, res) {
-	// Temporarily log a warning to test the stderr logfile.
-	console.warn('404 on', req.url);
-	res.send('not found...', 404);
+	res.send('Pagina niet gevonden...', 404);
 });
 
 
