@@ -121,7 +121,6 @@ exports.apps = function( req, res ) {
 exports.apps_platform = function( req, res ) {
 	res.header('Cache-Control', 'max-age=900, public, must-revalidate');
 	req.locals.title = req.locals.apps.platform + ' apps';
-	req.locals.apps = {apps:{}};
 	req.locals.apptags = null;
 	res.render( 'apps_platform', req.locals );
 };
