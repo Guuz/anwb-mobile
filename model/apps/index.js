@@ -88,6 +88,14 @@ var _androidApps = [
 		, 'Met de Land van ANWB App heeft u informatie over de leukste uitjes van Nederland direct bij de hand.'
 		, 'https://play.google.com/store/apps/details?id=com.afrogleap.anwb'
 		, ['vrijetijd']
+	),
+	new App(
+		'Android'
+		, 'Weg Pech'
+		, '1.0'
+		, 'Hoeveel gestrande leden kan jij binnen de aangegeven tijd weer op weg helpen? De Wegenwacht heeft maar 1 doel; leden met pech zo snel mogelijk weer op weg helpen. Kan jij dat ook? Help jij gestrande leden weer op weg binnen de aangegeven tijd? Ga dan nu de strijd aan met je familie en vrienden in het officiële ANWB Wegenwacht spel.'
+		, 'https://play.google.com/store/apps/details?id=nl.anwb.android.wegpech'
+		, ['wegenwacht', 'games']
 	)
 ];
 
@@ -99,6 +107,22 @@ var _iosApps = [
 		, 'Snel en eenvoudig files en flitsers checken kan nu altijd en overal.'
 		, 'http://itunes.apple.com/nl/app/anwb-verkeer/id325937652?mt=8'
 		, ['verkeer']
+	),
+	new App(
+		'iOS'
+		, 'Voordeel'
+		, '1.0.2'
+		, 'Gezellig uit eten en profiteren van een aantrekkelijk voordeel; Als ANWB lid ontvangt je tussen de 10 en 25% korting op de rekening bij geselecteerde restaurants in heel Nederland.'
+		, 'http://itunes.apple.com/us/app/anwb-voordeel/id368039700?mt=8'
+		, ['algemeen']
+	),
+	new App(
+		'iOS'
+		, 'Reishulp'
+		, '1.0'
+		, 'Met de ANWB Reishulp applicatie heeft u alle belangrijke informatie op –en over- uw vakantiebestemming direct bij de hand. Zo kunt u in spoedeisende gevallen direct contact opnemen met de ANWB Alarmcentrale of –voor minder spoedeisende vragen- met de ANWB Reisdokter. Ook heeft u digitaal uw medische geschiedenis bij de hand die vertaald kan worden in maar liefst 8 talen.'
+		, 'http://itunes.apple.com/nl/app/anwb-reishulp/id450730951?mt=8'
+		, ['wegenwacht', 'reishulp']
 	)
 ];
 
