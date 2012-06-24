@@ -6,10 +6,7 @@
 
 exports.index = function( req, res ) {
 	res.header('Cache-Control', 'max-age=900, public, must-revalidate');
-	req.locals = req.locals || {};
-	req.locals.title = 'ANWB Mobiel';
-	req.locals.apps = {apps:{}};
-	req.locals.apptags = null;
+	initLocals(req, res, 'ANWB Mobiel');
 	res.render( 'index', req.locals );
 };
 
@@ -21,9 +18,7 @@ exports.index = function( req, res ) {
 
 exports.contact = function( req, res ) {
 	res.header('Cache-Control', 'max-age=86400, public, must-revalidate');
-	req.locals.title = 'Contact';
-	req.locals.apps = {apps:{}};
-	req.locals.apptags = null;
+	initLocals(req, res, 'Contact');
 	res.render( 'contact', req.locals );
 };
 
@@ -35,10 +30,7 @@ exports.contact = function( req, res ) {
 
 exports.privacy = function( req, res ) {
 	res.header('Cache-Control', 'max-age=86400, public, must-revalidate');
-	req.locals = req.locals || {};
-	req.locals.title = 'Uw privacy';
-req.locals.apps = {apps:{}};
-	req.locals.apptags = null;
+	initLocals(req, res, 'Uw privacy');
 	res.render( 'privacy', req.locals );
 };
 
@@ -50,10 +42,7 @@ req.locals.apps = {apps:{}};
 
 exports.vereniging = function( req, res ) {
 	res.header('Cache-Control', 'max-age=86400, public, must-revalidate');
-	req.locals = req.locals || {};
-	req.locals.title = 'Vereniging en bedrijf';
-	req.locals.apps = {apps:{}};
-	req.locals.apptags = null;
+	initLocals(req, res, 'Vereniging en bedrijf');
 	res.render( 'vereniging', req.locals );
 };
 
@@ -65,10 +54,7 @@ exports.vereniging = function( req, res ) {
 
 exports.welkom = function( req, res ) {
 	res.header('Cache-Control', 'max-age=86400, public, must-revalidate');
-	req.locals = req.locals || {};
-	req.locals.title = 'Welkom op m.anwb.nl!';
-	req.locals.apps = {apps:{}};
-	req.locals.apptags = null;
+	initLocals(req, res, 'Welkom op m.anwb.nl!');
 	res.render( 'welkom', req.locals );
 };
 
@@ -80,8 +66,7 @@ exports.welkom = function( req, res ) {
 
 exports.wegenwacht = function( req, res ) {
 	res.header('Cache-Control', 'max-age=86400, public, must-revalidate');
-	req.locals = req.locals || {};
-	req.locals.title = 'Wegenwacht';
+	initLocals(req, res, 'Wegenwacht');
 	req.locals.apptags = ['wegenwacht'];
 	res.render( 'wegenwacht', req.locals );
 };
@@ -93,7 +78,7 @@ exports.wegenwacht = function( req, res ) {
  */
 
 exports.verkeer = function( req, res ) {
-	req.locals.title = 'Verkeersinformatie';
+	initLocals(req, res, 'Verkeersinformatie');
 	req.locals.apptags = ['verkeer'];
 	res.render( 'verkeer', req.locals );
 };
@@ -106,9 +91,7 @@ exports.verkeer = function( req, res ) {
 
 exports.apps = function( req, res ) {
 	res.header('Cache-Control', 'max-age=900, public, must-revalidate');
-	req.locals.title = 'Apps';
-	req.locals.apps = {apps:{}};
-	req.locals.apptags = null;
+	initLocals(req, res, 'Apps');
 	res.render( 'apps', req.locals );
 };
 
@@ -120,7 +103,16 @@ exports.apps = function( req, res ) {
 
 exports.apps_platform = function( req, res ) {
 	res.header('Cache-Control', 'max-age=900, public, must-revalidate');
-	req.locals.title = req.locals.apps.platform + ' apps';
-	req.locals.apptags = null;
+	initLocals(req, res, req.locals.apps.platform + ' apps');
 	res.render( 'apps_platform', req.locals );
 };
+
+/*
+ * Initializes the locals object in the request object.
+ */
+function initLocals( req, res, title ) {
+	req.locals = req.locals || {};
+	req.locals.title = title;
+	req.locals.apps = req.locals.apps || {apps:{}};
+	req.locals.apptags = null;
+}
