@@ -4,7 +4,8 @@
 	"private": true,
 	"dependencies": {
 		"express": ">= 2.5.x",
-		"jade": ">= 0.26.x"
+		"jade": ">= 0.26.x",
+		"jsdom": ">= 0.2.x"
 	},
 	"engine": "node = 0.6.x"
 }

@@ -11,6 +11,8 @@ var   express = require('express')
 
 var app = module.exports = express.createServer();
 
+var verkeerFeedTimeout = 1000*60;
+
 
 
 /**
@@ -59,7 +61,7 @@ app.get('/contact', vestigingen.getVestigingen, routes.contact);
 app.get('/privacy', routes.privacy);
 app.get('/vereniging', routes.vereniging);
 app.get('/wegenwacht', apps.getApps, routes.wegenwacht);
-app.get('/verkeer', verkeer.getFeed, apps.getApps, routes.verkeer);
+app.get('/verkeer', verkeer.getFeed, verkeer.getTrafficJamFeed, apps.getApps, routes.verkeer);
 app.get('/apps/:platform', apps.getApps, routes.apps_platform);
 
 
@@ -76,6 +78,17 @@ app.get('*', function(req, res) {
 verkeer.downloadVerkeerFeed( function( err, result ) {
 	verkeerFeedLoop(err, result);
 });
+// Download traffic jam information.
+verkeer.downloadTrafficjamFeed( trafficjamFeedLoop );
+
+function trafficjamFeedLoop( err ) {
+	if( err ) {
+		console.warn( err );
+	}
+	setTimeout(function() {
+		verkeer.downloadTrafficjamFeed( trafficjamFeedLoop );
+	}, verkeerFeedTimeout);
+}
 
 function verkeerFeedLoop( err, result ) {
 	if( err ) {
@@ -86,7 +99,7 @@ function verkeerFeedLoop( err, result ) {
 
 	setTimeout(function() {
 		verkeer.downloadVerkeerFeed( verkeerFeedLoop );
-	}, 1000*60);
+	}, verkeerFeedTimeout);
 }
 
 

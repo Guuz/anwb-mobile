@@ -16,51 +16,7 @@ block content
 		div.right
 			h2 Files
 			ul(data-role="listview", data-inset="true", data-filter="true", data-filter-placeholder="Filter lijst...", data-theme="b")
-				li
-					h4 A4
-						p Wegens werkzaamheden bij Schiphol is er maar 1 rijstrook in de schiphol-tunnel open.
-						p.ui-li-aside
-							strong 8km
-							|  file -
-							strong  15min
-							|  vertraging
-				li
-					h4 A2
-						p Op last van de politie is de rechter rijstrook gesloten.
-						p.ui-li-aside
-							strong 12km
-							|  file -
-							strong  10min
-							|  vertraging
-				li
-					h4 A12
-						p Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						p.ui-li-aside
-							strong 27km
-							|  file -
-							strong  30min
-							|  vertraging
-				li
-					h4 A73
-						p Morbi aliquet urna quis odio porttitor eget ornare nibh mollis.
-						p.ui-li-aside
-							strong 20km
-							|  file -
-							strong  10min
-							|  vertraging
-				li
-					h4 N44
-						p Cras et purus sed velit rutrum egestas.
-						p.ui-li-aside
-							strong 3km
-							|  file -
-							strong  5min
-							|  vertraging
-				li
-					h4 N206
-						p Sed at turpis non quam accumsan elementum ac in enim.
-						p.ui-li-aside
-							strong 2km
-							|  file -
-							strong  0min
-							|  vertraging
+				each trafficjam in verkeer.trafficjam
+					li
+						h4= trafficjam.road
+							p= trafficjam.description

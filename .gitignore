@@ -16,3 +16,4 @@ npm-debug.log
 *.sublime-*
 
 /model/verkeer/verkeer.json
+/model/verkeer/trafficjams.json
