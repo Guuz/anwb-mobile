@@ -111,6 +111,7 @@ exports.downloadTrafficjamFeed = function( callback ) {
 				var fileinfo = {
 					road: $(this).attr('id')
 					, description: $(this).find('p').text()
+					, km: $(this).find('em').text()
 				};
 				files.push( fileinfo );
 			});
