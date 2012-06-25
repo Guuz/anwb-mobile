@@ -21,5 +21,6 @@ block content
 						h4= trafficjam.road
 							p= trafficjam.description
 							p.ui-li-aside
-								strong #{trafficjam.km}
-								|  file
+								if trafficjam.km
+									strong #{trafficjam.km}
+									|  file
