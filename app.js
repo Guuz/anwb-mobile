@@ -79,7 +79,9 @@ verkeer.downloadVerkeerFeed( function( err, result ) {
 	verkeerFeedLoop(err, result);
 });
 // Download traffic jam information.
-verkeer.downloadTrafficjamFeed( trafficjamFeedLoop );
+// FIXME: this seems to cause a memory leak of some sort.
+// Disabling it for now to test this.
+//verkeer.downloadTrafficjamFeed( trafficjamFeedLoop );
 
 function trafficjamFeedLoop( err, result ) {
 	if( err ) {
