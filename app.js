@@ -81,10 +81,13 @@ verkeer.downloadVerkeerFeed( function( err, result ) {
 // Download traffic jam information.
 verkeer.downloadTrafficjamFeed( trafficjamFeedLoop );
 
-function trafficjamFeedLoop( err ) {
+function trafficjamFeedLoop( err, result ) {
 	if( err ) {
 		console.warn( err );
+	} else if ( result ) {
+		util.log( result );
 	}
+
 	setTimeout(function() {
 		verkeer.downloadTrafficjamFeed( trafficjamFeedLoop );
 	}, verkeerFeedTimeout);
