@@ -28,6 +28,18 @@ app.configure('development', function() {
 	app.use( express.logger('dev') );
 });
 
+// Log the real IP address when behind a (reverse) proxy.
+express.logger.token('remote-addr', function(req, res) {
+    var ip = req.header('x-forwarded-for');
+	if( ip ) {
+		// There can be multiple IP addresses if there are more than 1 proxies. Get the first one.
+		return ip.split(',')[0];
+	} else {
+		// When there are no proxies; get the normal IP address.
+		return req.connection.remoteAddress;
+	}
+});
+
 app.configure(function() {
 	app.set( 'views', __dirname + '/views' );
 	app.set( 'view engine', 'jade' );
