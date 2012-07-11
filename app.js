@@ -113,6 +113,9 @@ function verkeerFeedLoop( err, result ) {
  * Startup
  */
 
-var port = process.env.PORT || 3000;
-app.listen( port );
-console.log("Express server listening on port %d in %s mode", app.address().port, app.settings.env);
+var port = process.env.PORT || 3000
+  , ip = process.env.IP || '0.0.0.0'
+
+app.listen( port, ip, function() {  
+    console.log("Express server listening on port %d in %s mode", app.address().port, app.settings.env);
+});
