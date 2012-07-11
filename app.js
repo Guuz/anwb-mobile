@@ -21,7 +21,7 @@ var verkeerFeedTimeout = 1000*60;
 
 // In production log with a 'short' format.
 app.configure('production', function() {
-	app.use( express.logger('short') );
+	app.use( express.logger() );
 });
 // For development we log in the 'dev' format.
 app.configure('development', function() {
